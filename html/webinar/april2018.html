@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<style>
+		body, p{
+		font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+		}
+	</style>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="images/icon/opsmx.png" />
+	<title>OpsMx - Power Your Business with Spinnaker As- A- Service</title>
+	<!-- MAIN CSS FILES===================================
+        ======================================================= -->
+	<!-- Bootstrap Core CSS -->
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<!-- Animation -->
+	<link rel="stylesheet" href="../css/animate.css">
+	<!-- Custom CSS -->
+	<!-- <link href="../css/theme.css" rel="stylesheet"> -->
+	<link href="../css/color.css" rel="stylesheet">
+	<!-- Responsive styles-->
+	<link rel="stylesheet" href="../css/responsive.css">
+	<link href="../css/theme.css" rel="stylesheet">
+	<!-- Custom Fonts -->
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="../css/font-awesome.min.css">
+	<!-- Elegant icon font -->
+	<link rel="stylesheet" href="../css/simple-line-icons.css">
+	<link rel="stylesheet" href="../css/webinar.css">
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body ng-app="regApp" ng-controller="registerController">
+	<!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-main main-nav  nav-style" id="section-header">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                <a href="https://www.opsmx.com/"> <img src="../images/logo.png" alt="logo" class="img-responsive"></a>
+
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse navbar-right navbar-main-collapse navigation">
+                <ul class="nav navbar-nav">	
+					 <li class="dropdown list-item-align">
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PRODUCTS</a>
+                        <ul class="dropdown-menu dropdown-align dropdown-menu1 dropdown-line">
+                            <li style="list-style:none;" class="dropdown-submenu"><a class="dropdown-item" tabindex="-1">Spinnaker</a>
+                                <ul class="dropdown-menu dropdown-menu2 dropdown-submenu-line">
+									<li class="list-item-dropdown"><a  href="opensource-spinnaker.html">Open Source Spinnaker</a></li>
+									<li  class="list-item-dropdown"><a  href="enterprise-spinnaker.html">Open Enterprise Spinnaker</a></li>
+									<li  class="list-item-dropdown"><a href="at-a-glance.html">Compare Editions </a></li>
+                                </ul>
+                              </li>
+							  <li  class="list-item-dropdown"><a href="autopilot.html">Autopilot </a></li>
+								<li style="list-style:none;" class="dropdown-submenu"><a class="dropdown-item" tabindex="-1">SERVICES</a>
+									<ul class="dropdown-menu dropdown-menu2 dropdown-submenu-line">
+										<li class="list-item-dropdown"><a href="services.html">SERVICES</a></li>						
+										<li  class="list-item-dropdown"><a href="training.html">Training and Workshops</a></li>
+									</ul>
+                              </li>
+						</ul>
+                    </li>
+					 <li class="list-item-align"><a href="pricing.html">PRICING</a></li>
+					 <!-- <li style="list-style:none;"><a href="at-a-glance.html">PRICING</a></li> -->
+					<li class="list-item-align"><a href="https://docs.opsmx.com/">DOCS</a> </li> 
+					<li class="list-item-align"><a class="page-scroll" href="https://blog.opsmx.com/" >BLOG</a></li>
+					<li class="dropdown list-item-align">
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WEBINARS</a>
+                        <ul class="dropdown-menu dropdown-align dropdown-line">
+                                <li  class="list-item-align">
+										<a href="https://go.opsmx.com/webinar-continuous-verification-for-any-cicd-31st-july">July 31 - Continuous Verification for Any CI/CD
+										</a>                                 
+								</li>
+								<li class="list-item-dropdown"><a href="webinar.html">On-Demand Webinars</a></li>
+							 <li class="list-item-dropdown"><a href="videos.html">TUTORIALS</a></li>
+							
+						</ul>
+					 </li>
+					 <li class="list-item-align"><a class="page-scroll" href="company.html" >COMPANY</a></li>
+					<li class="list-item-align"><a class="page-scroll" href="https://opsmx.freshdesk.com/support/login" >LOGIN</a></li>
+					<li class="list-item-align"><a  href="contact.html" class="btn btn-sm btn-primary free">CONTACT US</a></li>              
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+        <!-- navbar end -->
+	<header class="webinar-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1 class="text-white header-text">Power Your Business with Spinnaker As- A- Service</h1><br>
+					<p class="text-white">Subscribe to OpsMx SAS Open Enterprise Spinnaker (OES) solution to leverage the continuous delivery platform for releasing software changes faster & with accuracy. </p>
+				<br></div>
+				<div class="col-lg-12"> <a href="contact.html" class="btn btn-primary" ng-click="getFreeTrial()">Buy Now</a>
+					
+		  </div>
+		  
+        </div>
+      </div>
+    </header>
+    
+		<!-- section blog start -->
+					<section id="section-blog" class="section-padding">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 wow">
+					<p>Open Enterprise Spinnaker (OES) solution is now also available as Software-as- a-Service (SaaS) model. With SaaS OES offering, enterprises can on-board easily & faster on Spinnaker, doesn’t have to pay upfront heavy cost & can scale up at their will.  </p>
+
+								</div>
+							</div>
+							
+										<h3><span style="text-transform:none;">Benefits of SAS OES :</span></h3>
+									
+							<div class="row">
+								<div class="col-md-4 col-sm-4 col-xs-12 wow fadeInLeft">
+									<div class="blog-box blog-big feature-bg">
+										<div class="blog-content">
+											<!--<ul class="list-inline">
+								<li>April 17, 2016</li>
+								<li>by ArjuN </li>
+								<li><i class="icon icon-bubble"></i>40 comments</li>
+							</ul>-->
+											<h3>Affordable</h3>
+											<p>No need to pay upfront costs, instead you make payment on monthly basis based on no of pipelines & the duration for availing services, making it Operating expenses (OPEX). This model removes the need for annual contracts. It saves the infrastructure, maintenance & support cost.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-12 wow fadeInRight">
+									<div class="blog-box blog-big feature-bg">
+										<div class="blog-content">
+											<!--<ul class="list-inline">
+								<li>April 17, 2016</li>
+								<li>by ArjuN </li>
+								<li><i class="icon icon-bubble"></i>40 comments</li>
+							</ul>-->
+											<h3>Worry free IT</h3>
+											<p>No need to worry about the maintenance of Spinnaker or the hardware it resides on, compatibility and upgrades will be taken care by OpsMx.</p>
+											<br>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-12 wow fadeInRight">
+									<div class="blog-box blog-big feature-bg">
+										<div class="blog-content">
+											<!--<ul class="list-inline">
+								<li>April 17, 2016</li>
+								<li>by ArjuN </li>
+								<li><i class="icon icon-bubble"></i>40 comments</li>
+							</ul>-->
+											<h3>High levels of security </h3>
+											<p>Robust security measures are in place beyond the affordability of most businesses safeguarding your confidential data. The data is much safer in the cloud than on a server in your offices</p>
+											<br>
+										</div>
+									</div>
+								</div>
+							</div>
+							<br>
+							<div class="row">
+								<div class="col-md-4 col-sm-4 col-xs-12 wow fadeInLeft">
+									<div class="blog-box blog-big feature-bg">
+										<div class="blog-content">
+											<!--<ul class="list-inline">
+                                                                <li>April 17, 2016</li>
+                                                                <li>by ArjuN </li>
+                                                                <li><i class="icon icon-bubble"></i>40 comments</li>
+                                                        </ul>-->
+											<h3>Quick deployment</h3>
+											<p>Spinnaker on-boarding can be done much faster over the Internet compared to on premise applications which needs to be installed on a the physical server.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-12 wow fadeInRight">
+									<div class="blog-box blog-big feature-bg">
+										<div class="blog-content">
+											<h3>Scalability</h3>
+											<p>Provides greater flexibility as you only pay for what you use and can easily scale up to meet demand.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-12 wow fadeInLeft">
+									<div class="blog-box blog-big feature-bg">
+										<div class="blog-content">
+											<!--<ul class="list-inline">
+                                                                <li>April 17, 2016</li>
+                                                                <li>by ArjuN </li>
+                                                                <li><i class="icon icon-bubble"></i>40 comments</li>
+                                                        </ul>-->
+											<h3>Lower Total Cost of Ownership </h3>
+											<p> Significantly reduces the energy bills as it does away with on premise servers & ACs required for cooling.</p>
+										</div>
+									</div>
+								</div>	
+								
+							</div>
+							
+						
+							
+						</div>
+					</section>
+					
+					<section id="section-pricing" class="section-padding" style="padding-top:0px">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-10">
+							<h3>Features of SAS OES-</h3>
+							</div>
+						</div>
+						<div class="container">
+						<div class="row">
+						<div class="col-md-8">
+							<ul>
+								<li>Seamless Deployment across public & Private Cloud</li>
+								<li>Pipeline Automation</li>
+								<li>Faster & Easier Application On boarding</li>
+								<li>Safer Deployment</li>     
+								<li>Automated of Canary Analysis</li>     
+								<li>Robust Security</li>     					
+							</ul>
+							</div>
+							</div>
+							</div>
+					</div>
+					</section>
+					
+					
+											
+			<!-- section footer start -->
+     <section id="section-footer" class="section-padding">
+        <div class="container">
+          <div class="row">			
+              			
+				<div class="col-md-3">
+                   <div class="footer-item news">
+                       <h4>Products</h4>
+					    <hr class="hr-align">
+                       <div class="row">
+                           <div  class="col-md-12 col-sm-12">
+                               <ul class="footer-link" >
+							   
+							   <li class="ordered-list"><a href="https://www.opsmx.com/opensource-spinnaker.html">Open Source Spinnaker </a></li>
+							   <li class="ordered-list"><a href="https://www.opsmx.com/enterprise-spinnaker.html">Open Enterprise Spinnaker</a></li>
+							   <li class="ordered-list"><a href="https://www.opsmx.com/autopilot.html">Autopilot</a></li>
+                                    <li class="ordered-list"><a href="https://www.opsmx.com/#section-customers" >Customers</a></li>  
+								<li class="footer-display" class="ordered-list"><a href="https://www.opsmx.com/#section-solutions"></a></li>	
+								<li class="footer-display" class="ordered-list"><a href="https://www.opsmx.com/#section-solutions"></a></li>	
+								<li class="footer-display" class="ordered-list"><a href="https://www.opsmx.com/#section-solutions"></a></li>									
+                             
+                               </ul>
+                           </div>
+                       </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+				  <div class="footer-item news">
+                       <h4>Company</h4>
+					    <hr>
+                       <div class="row">
+                           <div  class="col-md-12 col-sm-12">
+                               <ul class="footer-link" >
+                                 <li class="ordered-list"><a href="company.html#section-company">Overview</a></li>
+								   <li class="ordered-list"><a href="team.html">Team</a></li>
+                               
+                                   <li class="ordered-list"><a href="company.html#section-investors">Investors</a></li>
+                                    <li class="ordered-list"><a href="careers.html">Jobs</a></li>
+                                    <li class="ordered-list"><a href="contact.html" target="_blank">Contact Us</a></li>
+									 <li class="ordered-list"><a href="locations.html">Locations</a></li>
+									 <li class="footer-display" class="ordered-list"><a href="https://www.opsmx.com/#section-solutions"></a></li>	
+                               </ul>
+                           </div>
+                       </div>
+                    </div>
+							
+                </div>
+		
+				<div class="col-md-2">
+				<div class="footer-item news">
+                       <h4>Community</h4>
+					   <hr>
+                       <div class="row">
+                           <div  class="col-md-12">
+                               <ul class="footer-link" >
+									  <li  class="ordered-list"><a href="https://join.spinnaker.io/" target="_blank">Slack</a></li>
+									  <li  class="ordered-list"><a href="https://www.spinnaker.io/ebook/" target="_blank">Ebook</a></li>
+									  <li class="ordered-list"><a href="https://stackoverflow.com/search?q=spinnaker" target="_blank">Stackoverflow </a></li>
+									  <li class="ordered-list"><a href="https://community.spinnaker.io/" target="_blank">Community Forum </a></li>
+									  <li class="ordered-list"><a href="https://github.com/spinnaker" target="_blank">GitHub  </a></li>
+									  
+                               </ul>
+                           </div>
+						   
+                           
+                       </div>
+                    </div>
+					</div>
+					<div class="col-md-2">
+					<div class="footer-item news">
+							<h4>Docs</h4>
+							   <hr class="hr-align">
+							<div class="row">
+								<div  class="col-md-12 col-sm-12">
+									<ul class="footer-link" >
+									 <li class="ordered-list"><a href="https://docs.opsmx.com/" target="_blank">OpsMx Docs</a></li>
+									 <li class="ordered-list"><a href="https://www.spinnaker.io/concepts/" target="_blank">Spinnaker Docs</a></li>
+									 <li class="ordered-list"><a href="https://www.opsmx.com/#section-integrations">Integrations</a></li>
+									 
+									</ul>
+								</div>
+							  
+							</div>
+						 </div>
+						 </div>
+					
+				
+				<div class="col-md-3">
+				<div class="footer-item news">
+						<h4>Resources</h4>
+						 <hr>
+						<div class="row">
+							<div  class="col-md-12 col-sm-12">
+								<ul class="footer-link" >
+								   <li class="ordered-list"><a href="https://blog.opsmx.com/">Blog</a></li> 
+									<li class="ordered-list"><a href="videos.html" >Tutorials</a></li>
+									 <li class="ordered-list"><a href="webinar.html" >On-Demand Webinars</a></li> 
+								  
+								</ul>
+							</div>
+						   </div>
+					 </div>
+					</div>
+				
+				
+ </div>
+ 
+ 
+    </section>
+    <!-- section footer end -->
+					<!-- jQuery -->
+					<script src="../js/jquery.js"></script>
+					<script src="htpps://ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
+					<!-- Bootstrap Core JavaScript -->
+					<script src="../js/bootstrap.min.js"></script>
+					<!-- Plugin JavaScript -->
+					<script src="../js/jquery.easing.min.js"></script>
+					<!-- Sticky JS -->
+					<script type="text/javascript" src="../js/jquery.sticky.js"></script>
+					<!-- Waypoints -->
+					<script type="text/javascript" src="../js/waypoints.min.js"></script>
+					<!-- jQuery -->
+					<!-- Wow Animation -->
+					<script type="text/javascript" src="../js/wow.min.js"></script>
+					<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+					<!-- Custom Theme JavaScript -->
+					<script src="../js/theme.js"></script>
+					<script>
+						// Defining angularjs application.
+						    var regApp = angular.module('regApp', []);
+						    // Controller function and passing $http service and $scope var.
+						    regApp.controller('registerController', function($scope, $http) {
+						    $scope.showMessage = false;
+						    $scope.baseUrl ="//"+window.location.hostname;
+						    // create a blank object to handle form data.       
+						    // calling our submit function.
+						    $scope.registerForm = function(data) {
+						    $scope.showMessage = false;
+						    // Posting data to app
+						    $scope.contentData = "<h4>"+"User: "+data.regfirstname+" "+data.reglastname+"<br>"+"Comapny: "+data.regcompanyname+"<br>"+"Job Title: "+data.regjobtitle+"<br>"+"Email: "+data.regemail+"<br>"+"Phone: "+data.regphone+"</h4>";    
+						        
+						        /*toEmail:"info@opsmx.com",
+						                ccMail: "gopal@opsmx.com,gopinath@opsmx.com,balaji@opsmx.com",*/
+						        var postData = { 
+						                toEmail:"meera@opsmx.com",
+						                ccMail: "sumeet@opsmx.com",
+						                subject: "Webinar registration - April 2018",
+						                content: $scope.contentData
+						        }
+						        console.log(JSON.stringify(postData));
+						        $http({
+						            method : "POST",
+						            /*url: $scope.baseUrl + "/canaries/getcanaryids?pipelineid=" + pipelineID,*/
+						            url: "htpps://52.53.65.44:8090/email/send",
+						            /*url: "htpps://localhost:8090/email/send",*/
+						            data: postData,
+						            headers: {'content-type': 'application/json','accept':'application/json'}
+						            }).success(function(response){
+						                console.log(response);      
+						                $scope.successMessage = response;                   
+						            
+						        }).error(function(error){
+						                console.log(error);
+						        })
+						
+						        $scope.regfirstname = '';
+						        $scope.reglastname = '';
+						        $scope.regcompanyname = '';
+						        $scope.regjobtitle = '';
+						        $scope.regemail ='';
+						        $scope.regphone ='';
+						        $scope.showMessage = true;
+						        };
+						    });
+					</script>
+</body>
+
+</html>

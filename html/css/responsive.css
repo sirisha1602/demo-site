@@ -1,0 +1,1105 @@
+/* Responsive styles
+================================================== */
+
+/* Large Devices, Wide Screens 
+@media (min-width : 1200px) {
+	.dropdown i{
+		display: none;
+	}
+}*/
+
+
+/* Medium Devices, Desktops 
+@media (min-width : 992px) {
+
+	.navbar-brand i{
+		margin-right: 0px;
+		font-size: 16px;
+		line-height: 16px;
+	}
+	
+
+}*/
+
+
+
+/* Small Devices, Tablets */
+@media (min-width : 768px) and (max-width: 991px) {
+	 .pb5{
+       padding-bottom:40px;
+   }
+   .pb15{
+       padding-bottom:15px;
+   }
+.head-padding {
+	padding-bottom: 28px;
+}
+.head2-padding{
+	padding-bottom: 24px;
+}
+.head3-padding {
+	padding-bottom: 26px;
+}
+.head-final {
+	padding-bottom: 26px;
+}
+    .section-heading h5{
+           width: 50%;
+       }
+   .nav > li > a {
+      padding-left: 12px;
+       padding-right: 10px;
+   }
+       .navbar-custom a {
+           font-size: 14px;
+       }
+   .navbar-brand i{
+       margin-right: 0px;
+       font-size: 16px;
+       line-height: 16px;
+   }
+    .navbar-header {
+           float: none;
+       }
+       .navbar-toggle {
+           display: block;
+       }
+       .navbar-collapse {
+           border-top: 1px solid transparent;
+           box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+           overflow: hidden !important;
+       }
+       .navbar-collapse.collapse {
+           display: none!important;
+       }
+       .navbar-collapse.collapse.in {
+           display: block!important;
+       }
+       .navbar-collapse *[class*='navbar-'] {
+           float: none!important;
+           margin: 7.5px -15px;
+           background: #fafafa;
+       }
+       .navbar-nav > li {
+           float: none;
+       }
+       .navbar-nav > li > a {
+           padding-top: 10px;
+           padding-bottom: 10px;
+       }
+   
+   /*  ============ section process============  */
+    .process-box {
+       margin-bottom: 45px;
+   }
+   
+   /*Pricing==========================*/
+   .price-box{
+       margin-bottom: 20px;
+   }
+   
+   /*Team==============================*/
+   .team-box{
+       margin-bottom: 30px;
+   }
+       
+       
+   /* ================= Client inmg =======================*/
+       .client-box{
+           margin-bottom: 30px;
+       }
+   
+   /*blog========================*/
+   .blog-top-desc {
+       margin-bottom: 20px;
+   }
+   .blog-date{
+       width: 65px;
+       height: 65px;
+   }
+   .blog-top-desc h4 {
+       line-height: 25px;
+   }
+   .footer-socail {
+       text-align: center;
+       margin-top: 10px;
+   }
+   
+   .copy{
+       text-align: center;
+   }
+   
+      .box-heading{
+               color:#fff;
+               text-align: center
+           }
+           
+           .bgcolor{
+               background: rgb(149,55,53);
+               float: none;
+               box-shadow: #232323;
+               padding: 23px;
+           }
+       .spacing{
+           letter-spacing: 0px;
+       }
+       .notbold{
+           font-weight:normal
+       
+       }
+       .cases{
+           text-transform: none;
+           color: #15547c;
+       }â€‹
+       
+       .training-head {
+          /* padding-bottom: 31px; */
+          
+          height: 90px;
+       }
+       .training-box {
+           padding: 23px;
+           background: rgba(119, 147, 60, 1);
+           float: none;
+           box-shadow: #232323;
+       }
+       .training-service {
+           padding-bottom: 90px;
+       }
+       .training-box-right {
+           padding: 23px;
+           background: rgb(149,55,53);
+           float: none;
+           
+       }
+       .m30{
+           margin-bottom:50px;
+       }
+       
+       .training-padding{
+           padding: 55px 0px;
+       }
+       .training-table{
+           width: 100%;
+       max-width: 100%;
+       }
+       .table-color{
+           margin-bottom: 50px;
+          background: #f9f9f9;
+       }
+   
+   }
+   
+   /*======== spinnaker supporting company list=========*/
+   .logo-icon {
+       -webkit-box-align: center;
+       align-items: center;
+       display: flex;
+       -webkit-box-pack: center;
+       justify-content: center;
+       height: 14rem;
+       margin-bottom: 2rem;
+       background: rgb(248, 249, 253);
+       border: 1px solid #e9e9f1;
+       border-radius: 10px;
+       padding: 0px 10px;
+   }
+   
+   /* Small Devices Potrait 
+   @media (max-width : 767px){
+   
+       
+   }*/
+   
+   /* Extra Small Devices, Phones */ 
+   @media (min-width : 480px) and (max-width :767px){
+	   
+		   .hs-email {
+    display: inline-block;
+}
+.subscribe-btn{
+
+    padding: 7px 12px;
+    color: #fff;
+    background: #005a9f;
+    border-color: #005a9f;
+    font-size: 12px;
+	letter-spacing: 2px;
+
+}
+#hbspt-form-1558434951433-9948115111 {
+	background:#2294ca;
+}
+.no-list li{
+list-style: none;
+position: absolute;
+}
+label[for="email-a9866420-4951-42fd-9a58-968b5a402a9c"]{
+    display:none;
+}
+label[for="email-75f888a1-ebc6-4b57-8d70-e7ae409907f5"] {
+    display: none;
+}
+label[for="email-989a60db-aa3b-4cd8-ad7c-c39b61ec7a22"]{
+    display:none;
+}
+.hs-email{ 
+display:inline-block;
+}
+.hs-submit{
+
+display:inline-block;
+}
+.hs-input{
+    display: inline-block;
+   min-width: 170px; 
+    max-width: 200px;
+    height: 40px;
+    padding: 9px 10px;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #33475b;
+    background-color: #ffffff;
+    border: 1px solid #005a9f;
+    box-sizing: border-box;
+    
+}
+.hs-button {
+	width: 220px;
+     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 13px;
+    position: relative;
+    text-align: center;
+    background-color: #005a9f;
+    border-color: #005a9f;
+    color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 12px;
+    padding: 13px 24px;
+	letter-spacing: 1px;
+}
+       
+       .main-team {
+       margin-bottom:20px;
+       position: relative;
+       display: none;
+       height: 400px;
+   }
+   .main-image {
+       width:32%;
+       height:40%;
+       float:left;
+   }
+   .main-image-heading {
+       text-align: center;
+       margin-top: 80px;
+       text-transform: uppercase;
+       height: 100px;
+       padding-top: 44px;
+   }
+   .main-image-designation {
+       text-align: center;
+           color:#333;
+       margin-top: -10px;
+   }
+   .main-image-description {
+       width:100%;
+       float:left;
+       
+   }
+   
+       .slider-caption h3 {
+       font-size: 27px; 
+       line-height: 20px;
+   }
+   .slider-caption p {
+       font-size: 16px;
+       line-height: 17px;
+   }
+   .cover-image-message {
+      
+       left: 50%;
+       
+   }
+       
+   .navbar-default .navbar-nav > li > a {
+       padding: 8px 16px;
+    }
+   .navbar-main {
+       background: rgba(255,255,255,.9);
+   }
+   .navbar-nav {
+       margin: 7.5px -15px;
+       background: #fafafa;
+       
+   }
+   
+   .navbar-nav li a{
+       border-bottom: 1px solid#ccc;
+       padding: 21px 20px 10px;
+   }
+    .about-wrap {
+       margin-top: 30px;
+   }
+   
+   .service-inner .btn-primary.grey {
+       margin-top: 60px;
+   }
+   
+   /*  ============ section process============  */
+    .process-box {
+       margin-bottom: 45px;
+   }
+   
+   
+   /*Pricing==========================*/
+   .price-box{
+       margin-bottom: 20px;
+   }
+   
+   /*Team==============================*/
+   .team-box{
+       margin-bottom: 30px;
+   }
+   
+   /*=============testimonial==================*/
+   #testimonial-carousel .carousel-indicators {
+       top: 65%;
+   }
+   
+   #testimonial-carousel .carousel-indicators {
+       margin-top: 125px;
+   }
+   
+   .client-carousel {
+       margin-top: 100px;
+   }
+   
+   /*=============Blog==============================================*/
+   .blog-box{
+       margin-bottom: 30px;
+   }
+   /*=====Contact========================================*/
+   .contact-info{
+       margin-bottom: 30px;
+   }
+   
+   .footer-socail{
+       text-align: center;
+   }
+   .footer-socail li {
+       padding: 0px;
+   }
+   .footer-socail li a {
+       text-align: center;
+      /* width: 30px;
+       height: 30px;*/
+   }
+   
+   
+   .footer-socail li a i {
+       padding-top: 8px;
+       font-size: 12px;
+   }
+   .copy{
+       text-align: center;
+   }
+           
+   .box-heading{
+       color:#fff;
+       text-align: center
+   }
+   .m10{
+       padding: 10px;
+   }
+   .spacing{
+   letter-spacing: 0px;
+   }
+   .notbold{
+   font-weight:normal
+   
+   }
+   .cases{
+   text-transform: none;
+   color: #15547c;
+   }â€‹
+   
+   .training-head {
+   /* padding-bottom: 31px; */
+   
+   height: 90px;
+   }
+   .bgcolor{
+   background: rgb(149,55,53);
+   float: none;
+   box-shadow: #232323;
+   padding: 23px;
+   margin-top: 20px;
+   }
+   .training-box {
+   padding: 23px;
+   background: rgba(119, 147, 60, 1);
+   float: none;
+   box-shadow: #232323;
+   }
+   .training-service {
+   padding-bottom: 90px;
+   }
+   .training-box-right {
+   padding: 23px;
+   background: rgb(149,55,53);
+   float: none;
+   
+   }
+   .w50{
+   width: 50%;
+   }
+   .m30{
+   margin-bottom:50px;
+   }
+   .training-padding{
+   padding: 55px 0px;
+   }
+   .training-table{
+   width: 100%;
+   max-width: 100%;
+   }
+   .table-color{
+   margin-bottom: 50px;
+   background: #f9f9f9;
+   }
+   }
+   
+   
+   /*======== spinnaker supporting company list=========*/
+   .logo-icon {
+       -webkit-box-align: center;
+       align-items: center;
+       display: flex;
+       -webkit-box-pack: center;
+       justify-content: center;
+       height: 14rem;
+       margin-bottom: 2rem;
+       background: rgb(248, 249, 253);
+       border: 1px solid #e9e9f1;
+       border-radius: 10px;
+       padding: 0px 10px;
+   }
+   .m25{
+       margin-left:20px;
+   }
+   /* Custom, iPhone Retina */ 
+   @media (min-width : 320px) and (max-width : 478px)  {
+	   .hs-email {
+    display: inline-block;
+}
+.subscribe-btn{
+
+    padding: 7px 12px;
+    color: #fff;
+    background: #005a9f;
+    border-color: #005a9f;
+    font-size: 12px;
+	letter-spacing: 2px;
+
+}
+#hbspt-form-1558434951433-9948115111 {
+	background:#2294ca;
+}
+.no-list li{
+list-style: none;
+position: absolute;
+}
+label[for="email-a9866420-4951-42fd-9a58-968b5a402a9c"]{
+    display:none;
+}
+label[for="email-75f888a1-ebc6-4b57-8d70-e7ae409907f5"] {
+    display: none;
+}
+label[for="email-989a60db-aa3b-4cd8-ad7c-c39b61ec7a22"]{
+    display:none;
+}
+.hs-email{ 
+display:inline-block;
+}
+.hs-submit{
+
+display:inline-block;
+}
+.hs-input{
+    display: inline-block;
+   min-width: 35px; 
+    max-width: 88px;
+    height: 40px;
+    padding: 9px 10px;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 8px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #33475b;
+    background-color: #ffffff;
+    border: 1px solid #005a9f;
+    box-sizing: border-box;
+    
+}
+.hs-button {
+	width: 142px;
+     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 13px;
+    position: relative;
+    text-align: center;
+    background-color: #005a9f;
+    border-color: #005a9f;
+    color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 8px;
+    padding: 13px 24px;
+	letter-spacing: 1px;
+}
+.actions {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    padding: 17px 20px 18px 0px;
+}
+form{
+text-align:center;
+}
+   .price-head-oss-services{
+      /*padding-bottom: 31px;*/
+       color: #2294ca;
+       height: auto;
+   }
+   .CD-platform {
+       margin-top: 25px;
+   }
+   .service-item {
+       padding: 40px 20px;
+       margin-bottom: 30px;
+       -webkit-transition: all .4s ease 0s;
+       -o-transition: all .4s ease 0s;
+       transition: all .4s ease 0s;
+       -webkit-box-shadow: 1px 1px 2px 1px #ccc;
+       box-shadow: 1px 1px 2px 1px #ccc;
+       background-color: #FFF;
+       height: 640px;
+   }
+   .main-team {
+   margin-bottom:20px;
+   position: relative;
+   display: none;
+   height: 400px;
+   }
+   .main-image {
+   width:32%;
+   height:28%;
+   float:left;
+   }
+   .main-image-heading {
+   text-align: center;
+   margin-top: 80px;
+   text-transform: uppercase;
+   }
+   .main-image-designation {
+   text-align: center;
+   color:#333;
+   margin-top: -10px;
+   }
+   .main-image-description {
+   width:100%;
+   float:left;
+   padding-left:0px;
+   padding-right:0px;
+   }
+   .slider-caption h3 {
+       font-size: 20px; 
+       line-height: 20px;
+   }
+   .slider-caption p {
+       font-size: 15px;
+       line-height: 17px;
+   }
+   .cover-image-message {
+      
+       left: 50%;
+       
+   }
+   
+   
+   .section-heading h5{
+           width: 100%;
+       }
+       
+   .section-padding{
+           padding: 80px 0px;
+       }
+   .navbar-default .navbar-nav > li > a {
+       padding: 8px 16px;
+    }
+    .navbar-main {
+       background: rgba(255,255,255,.9);
+   }
+   .navbar-nav {
+       margin: 3.5px -15px;
+      background: #fafafa;
+   }
+   
+   
+   /*Pricing==========================*/
+   .price-box{
+       margin-bottom: 20px;
+   }
+   
+   
+   /*  ============ section process============  */
+    .process-box {
+       margin-bottom: 45px;
+   }
+       
+       
+   /*testimonial==================*/
+   #testimonial-carousel .carousel-indicators {
+       top: 65%;
+   }
+   #testimonial-carousel .carousel-indicators {
+       margin-top: 125px;
+   }
+   
+   
+   /* ================= Client inmg =======================*/
+       .client-box{
+           margin-bottom: 30px;
+       }
+   /*Blog==============================================*/
+   .blog-box{
+       margin-bottom: 30px;
+   }
+       
+   /*Contact========================================*/
+   .contact-info{
+       margin-bottom: 30px;
+   }
+   /*============ Footer ============*/
+       .footer-item{
+           margin: 30px 0px;
+       }
+   .footer-socail{
+       text-align: center;
+   }
+   .footer-socail li {
+       padding: 0px;
+   }
+   .footer-socail li a {
+       display: inline-block;
+       text-align: center;
+       /*width: 30px;
+       height: 30px;*/
+       color: #ccc;
+      /* border: 1px solid #444;*/
+       padding-top: 3px;
+   }
+   
+   
+   .footer-socail li a i {
+       padding-top: 8px;
+       font-size: 12px;
+   }
+   
+   }
+
+   /*======== spinnaker supporting company list=========*/
+   .logo-icon {
+       -webkit-box-align: center;
+       align-items: center;
+       display: flex;
+       -webkit-box-pack: center;
+       justify-content: center;
+       height: 14rem;
+       margin-bottom: 2rem;
+       background: rgb(248, 249, 253);
+       border: 1px solid #e9e9f1;
+       border-radius: 10px;
+       padding: 0px 10px;
+   }
+   .m25{
+       margin-left:25px;
+   }
+   
+   
+   .youtube-player {
+           position: relative;
+           padding-bottom: 56.23%;
+           /* Use 75% for 4:3 videos */
+           height: 0;
+           overflow: hidden;
+           max-width: 100%;
+           background: #000;
+           margin: 5px;
+       }
+       
+       .youtube-player iframe {
+           position: absolute;
+           top: 0;
+           left: 0;
+           width: 100%;
+           height: 100%;
+           z-index: 100;
+           background: transparent;
+       }
+       
+       .youtube-player img {
+           bottom: 0;
+           display: block;
+           left: 0;
+           margin: auto;
+           max-width: 100%;
+           width: 100%;
+           position: absolute;
+           right: 0;
+           top: 0;
+           border: none;
+           height: auto;
+           cursor: pointer;
+           -webkit-transition: .4s all;
+           -moz-transition: .4s all;
+           transition: .4s all;
+       }
+       
+       .youtube-player img:hover {
+           -webkit-filter: brightness(75%);
+       }
+       
+       .youtube-player .play {
+           height: 72px;
+           width: 72px;
+           left: 50%;
+           top: 50%;
+           margin-left: -36px;
+           margin-top: -36px;
+           position: absolute;
+           background: url("//i.imgur.com/TxzC70f.png") no-repeat;
+           cursor: pointer;
+       }
+  
+   /*======== spinnaker supporting company list=========*/
+   .logo-icon {
+       -webkit-box-align: center;
+       align-items: center;
+       display: flex;
+       -webkit-box-pack: center;
+       justify-content: center;
+       height: 14rem;
+       margin-bottom: 2rem;
+       background: rgb(248, 249, 253);
+       border: 1px solid #e9e9f1;
+       border-radius: 10px;
+       padding: 0px 10px;
+   }
+   .m25{
+       margin-left:25px;
+   }
+   /* ---------------training page ---------------------------------*/
+   
+   @media (min-width : 1200px) {
+       .p10{
+           margin-left:20px;
+       }
+       .box-heading{
+           color:#fff;
+           text-align: center
+       }
+       .bgcolor{
+           background: rgb(149,55,53);
+           float: none;
+           box-shadow: #232323;
+           padding: 23px;
+       }
+       .spacing{
+           letter-spacing: 0px;
+       }
+       .notbold{
+           font-weight:normal
+       
+       }
+       .cases{
+           text-transform: none;
+           color: #15547c;
+       }â€‹
+       
+       .training-head {
+          /* padding-bottom: 31px; */
+          
+          height: 90px;
+       }
+       .training-box {
+           padding: 23px;
+           background: rgba(119, 147, 60, 1);
+           float: none;
+           box-shadow: #232323;
+       }
+       .training-service {
+           padding-bottom: 90px;
+       }
+       .training-box-right {
+           padding: 23px;
+           background: rgb(149,55,53);
+           float: none;
+           
+       }
+       .m30{
+           margin-bottom:50px;
+       }
+       .training-padding{
+           padding: 55px 0px;
+       }
+       .training-table{
+           width: 100%;
+       max-width: 100%;
+       }
+       .table-color{
+           margin-bottom: 50px;
+          background: #f9f9f9;
+       }
+           
+       }
+       /*======== spinnaker supporting company list=========*/
+   .logo-icon {
+       -webkit-box-align: center;
+       align-items: center;
+       display: flex;
+       -webkit-box-pack: center;
+       justify-content: center;
+       height: 14rem;
+       margin-bottom: 2rem;
+       background: rgb(248, 249, 253);
+       border: 1px solid #e9e9f1;
+       border-radius: 10px;
+       padding: 0px 10px;
+   }
+       
+       
+       /* Medium Devices, Desktops */
+       @media (min-width : 992px) and (max-width : 1199px) {
+		   .pb5 {
+    padding-bottom: 21px;
+}
+		   .head-paragraph {
+			   padding-bottom: 53px;
+		   }
+		   .head-final2 {
+			   padding-bottom: 26px;
+		   }
+			.onboard {
+				padding-top:25px;
+			}
+			.head-last-para{
+				padding-bottom: 26px;
+			}
+        .service-item{
+            /* padding: 0px 20px; */
+            margin-bottom: 30px;
+            -webkit-transition: all .4s ease 0s;
+            -o-transition: all .4s ease 0s;
+            transition: all .4s ease 0s;
+            -webkit-box-shadow: 1px 1px 2px 1px #ccc;
+            box-shadow: 1px 1px 2px 1px #ccc;
+            background-color:#FFF;
+            height:590px;
+        }
+        .service-item img{
+            margin-bottom: 25px;
+            display: block;
+        }
+        
+        .service-item h4{
+            padding: 10px 0px;
+            position: relative;
+             -webkit-transition: all .4s ease 0s;
+            -o-transition: all .4s ease 0s;
+            transition:all .4s ease 0s;
+        }
+        .service-item h4:before{
+            position: absolute;
+            content: "";
+           padding: 0px 20px;
+            height: 2px;
+            background: #2294ca;
+            left: 45%;
+            top: 0px;
+        }
+        .service-item h4:after{
+            position: absolute;
+            content: "";
+            padding: 0px 20px;
+            height: 2px;
+            background: #2294ca;
+            left: 45%;
+            bottom: 0px;
+        }
+        .service-item:hover {
+            cursor: pointer;
+        }
+    
+           .p10{
+               margin-left:20px;
+           }
+           .box-heading{
+               color:#fff;
+               text-align: center
+           }
+           .bgcolor{
+               background: rgb(149,55,53);
+               float: none;
+               box-shadow: #232323;
+               padding: 23px;
+           }
+       .spacing{
+           letter-spacing: 0px;
+       }
+       .notbold{
+           font-weight:normal
+       
+       }
+       .cases{
+           text-transform: none;
+           color: #15547c;
+       }â€‹
+       
+       .training-head {
+          /* padding-bottom: 31px; */
+          
+          height: 90px;
+       }
+       .training-box {
+           padding: 23px;
+           background: rgba(119, 147, 60, 1);
+           float: none;
+           box-shadow: #232323;
+       }
+       .training-service {
+           padding-bottom: 90px;
+       }
+       .training-box-right {
+           padding: 23px;
+           background: rgb(149,55,53);
+           float: none;
+           
+       }
+       .m30{
+           margin-bottom:50px;
+       }
+       .training-padding{
+           padding: 55px 0px;
+       }
+       .training-table{  
+           width: 100%;
+       max-width: 100%;
+       }
+       .training-heading{
+           margin-bottom: 50px;
+           position: relative;
+       }
+       .table-color{
+           margin-bottom: 50px;
+          background: #f9f9f9;
+       }
+   }
+          /*======== spinnaker supporting company list=========*/
+          .logo-icon {
+           -webkit-box-align: center;
+           align-items: center;
+           display: flex;
+           -webkit-box-pack: center;
+           justify-content: center;
+           height: 14rem;
+           margin-bottom: 2rem;
+           background: rgb(248, 249, 253);
+           border: 1px solid #e9e9f1;
+           border-radius: 10px;
+           padding: 0px 10px;
+       }
+       /* Small Devices, Tablets */
+    
+       
+       
+         
+       
+       @media(max-width: 479px){
+           .box-heading{
+               color:#fff;
+               text-align: center
+           }
+           .m10{
+               padding: 10px;
+           }
+           .spacing{
+               letter-spacing: 0px;
+           }
+           .notbold{
+               font-weight:normal
+           
+           }
+           .cases{
+               text-transform: none;
+               color: #15547c;
+           }â€‹
+           
+           .training-head {
+              /* padding-bottom: 31px; */
+              
+              height: 90px;
+           }
+           .bgcolor{
+               background: rgb(149,55,53);
+               float: none;
+               box-shadow: #232323;
+               padding: 23px;
+               margin-top: 20px;
+           }
+           .training-box {
+               padding: 23px;
+               background: rgba(119, 147, 60, 1);
+               float: none;
+               box-shadow: #232323;
+           }
+           .training-service {
+               padding-bottom: 90px;
+           }
+           .training-box-right {
+               padding: 23px;
+               background: rgb(149,55,53);
+               float: none;
+               
+           }
+           .w50{
+               width: 50%;
+           }
+           .m30{
+               margin-bottom:50px;
+           }
+           .training-padding{
+               padding: 55px 0px;
+           }
+           .training-table{
+               width: 100%;
+           max-width: 100%;
+           }
+           .table-color{
+               margin-bottom: 50px;
+              background: #f9f9f9;
+           }
+       }
+       .mar30{
+           margin-top:30px;
+       }

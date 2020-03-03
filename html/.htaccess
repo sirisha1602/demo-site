@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+Options +FollowSymlinks
+RewriteEngine on
+rewriterule ^opsmx-enterprise-spinnaker.html(.*)$ https://www.opsmx.com/enterprise-spinnaker.html$1 [r=301,nc]
+Redirect 301 /webinar/webinar-past.html /webinar/webinar.html
+</IfModule>

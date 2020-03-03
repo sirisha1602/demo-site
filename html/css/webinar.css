@@ -1,0 +1,502 @@
+.service-pstyle{
+font-size: 14px;
+font-weight: 100;	
+}
+.service-hstyle {
+	font-size: 18px;
+}
+.webinar-header {
+  height: 50vh;
+  min-height: 300px;  
+  background: #2294ca center center no-repeat scroll;
+  /*background: url('http://placehold.it/1920x400') center center no-repeat scroll;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.summit-header {
+  height: 50vh;
+  min-height: 600px;  
+  background: url('../images/DWJW-promo-san-fran-rev.jpg') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.feature-bg {
+	background: #0066a1;
+	padding: 20px;
+	padding-top: 1px;
+    margin-bottom: 30px;
+    -webkit-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+    -webkit-box-shadow: 1px 1px 2px 1px #ccc;
+    box-shadow: 1px 1px 2px 1px #ccc;
+	height:150px;
+}
+.feature-bg-second-box {
+	background: #27a3eb;
+	padding: 20px;
+	padding-top: 1px;
+    margin-bottom: 30px;
+    -webkit-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+    -webkit-box-shadow: 1px 1px 2px 1px #ccc;
+    box-shadow: 1px 1px 2px 1px #ccc;
+	height:150px;
+}
+.webinar-button{
+	font-size:48px;color:red
+}
+.webinar-row{
+	margin-top:-50px;
+	}
+.text-white{
+	color:white;
+}
+.header-text{
+	margin-top:90px;
+}
+.header-text-withlogo{
+	margin-top:135px;
+}
+.bg-dark{
+	background-color: #343a40!important;
+}
+.bg-lightblue{
+	background-color:#add8e6;
+}
+.py3{
+	padding-top: 3rem!important;
+	padding-bottom: 3rem!important;
+}
+.m-0 {
+    margin: 0!important;
+}
+.padding0{
+	padding:0px;
+}
+.mb20{
+	margin-bottom:20px;
+}
+.fw600{
+	font-weight:600;
+}
+.mt20{
+	margin-top:20px;
+}
+.bg-white{
+	background-color: white !important;
+}
+.border0{
+	border:0px!important;
+}
+.bg-transparent{
+	background-color: transparent;
+}
+.bg-darkblue{
+	background-color:#38507e;
+}
+.bg-darkgreen{
+	background-color:#25551f;
+}
+.buttontolink{
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    padding: 5px;
+    border-radius: 3px;    
+ }
+ .buttontolink a:hover{
+    	text-decoration:none;
+ }
+ .openshift-logo-header{
+ 	width: 155px;
+    height: 73px;
+    position: relative;
+    left: 43%;
+    z-index: 9999;
+    top: 120px;    
+ }
+ 
+ /* style tag styles of webinar page*/
+
+ .cover-image{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    position:relative;
+ }
+ .cover-image-text{
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    left: 0px;
+    width:100%;
+ }
+ .webinar-image-text{
+    position: absolute;
+    bottom: 15px;
+    text-align: center;    
+    font-size: 15px;
+    line-height: 40px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    background-color: #daac35;
+    margin-left: 10px;
+ }
+ .webinar-image-text:hover{
+    background-color: #fff;    
+ }
+ .webinar-link{
+    color:#fff;
+ } 
+ .webinar-image-text:hover .webinar-link{
+    color:#2294ca;
+ }
+
+ .webinar-learnmore{ 
+    position: absolute;
+    bottom: 95px;
+    margin-left: 10px;
+}
+/*.webinar-learnmore-head{
+    font-size: 15px;
+    border: 1px solid white;
+    background: #edc459;
+    border-radius: 3px;
+    padding-left: 5px;
+    margin-bottom: 2px;
+}*/
+.webinar-learnmore-head{
+    font-size: 15px;
+    font-weight: bold;
+}
+.webinar-list{
+    position: relative;
+    width: 115px;
+    list-style-type: none;
+    float: left;
+    border: 1px solid white;
+    margin-right: 10px;
+}
+.webi-li-first{
+    width:113px;
+}
+.webinar-list:hover .webi-li-second{
+    opacity: .9;
+}
+.webi-li-date-mm{
+    list-style-type: none;
+    color: white;
+    font-size: 12px;
+}
+.webi-li-date-dd{
+    list-style-type: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.webi-li-date-time{
+    list-style-type: none;
+    color: white;
+    font-size: 8px;
+}
+.webi-li-details{
+    height: 25px;
+    font-size: 10px;
+    line-height: 11px;
+    background: #edc459;
+    text-align: center;
+    color: white;
+    margin-bottom: 6px;
+}
+.webi-li-second{    
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #001733;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #edc459;
+  color: #ffffff;
+}
+.webi-second-view{
+    background-color: #edc459;
+    border-radius: 2px;
+    padding: 1px;
+}
+.webinar-menu-ul li{    
+    list-style: none;
+}
+
+
+ .event-widget{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    background-color: #ffce40;
+    border: 2px solid white;
+ }
+ .event-widget-top{
+    height: 70%;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 13px;
+ }
+ .event-widget-bottom{
+    height: 30%;
+    font-size: 12px;
+    text-align: center;
+    padding: 2px;
+ }
+ .automation-ul{
+    display:inline-block;
+    height: 35px;
+ }
+ .automation-ul li{
+    list-style-type:none;
+    float:left;
+    width:33px;
+    height:33px;
+    margin-right:10px;
+    border: 1px solid #ddd;
+    padding: 2px;
+ }
+ .automation-ul li span{
+    font-size:8px;
+ }
+ .btn-white-medium{
+ 	background: #fff;
+    border: 1px solid#eee;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color:#2294ca;
+ }
+ .btn-white-medium:hover{
+ 	 background-color: #005a9f;
+     border-color: #005a9f;
+     color:#fff;
+ }
+
+.Newbutton {
+    display: none;
+}
+
+.divbutton:hover button {
+    display: block;
+}
+.box {
+  position: relative;
+  margin-top: -20px;
+ width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 77%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+.box:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}
+
+.title {
+     position: absolute;
+    top: 0%;
+	 right: 0;
+    color: white;
+    background-color: #f0ad4e;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: 0.4s ease-out;
+    -moz-transition: 0.4s ease-out;
+    -ms-transition: 0.4s ease-out;
+    -o-transition: 0.4s ease-out;
+    transition: 0.4s ease-out;
+}
+
+
+.box:hover .title {
+ display:none;
+}
+
+.button {
+  position: absolute;
+  width: 500px;
+  left:0;
+   color: white;
+   
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: 0.4s ease-out;
+    -moz-transition: 0.4s ease-out;
+    -ms-transition: 0.4s ease-out;
+    -o-transition: 0.4s ease-out;
+    transition: 0.4s ease-out;
+  top: 116px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.button a {
+  width: 200px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+}
+
+.box:hover .button {
+  opacity: 1;
+}
+.price-head {
+ height: 360px;
+}
+.price-head h3 {
+    letter-spacing: 0px;
+    color: #2294ca;	
+    height: 81px;
+}
+
+.past-web-box{  
+   font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.past-web-watchnow{  
+  padding: 10px 0px;
+  cursor: pointer;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:bold;
+}
+
+.f20{
+  font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.p15{
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+.text-black{
+  color:black;
+}
+.text-blue{
+  color: #2294ca;
+}
+.text-white{
+  color:#ffffff;
+  line-height: 26px;
+}
+.past-web-head{
+  min-height:100px;
+}
+.past-web-outer{
+  margin-bottom:10px;
+}
+.f17{
+  font-size:16px;
+}
+.img-webinar {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.img-webinar:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+.past-web-link:hover{
+   font-size:14px;
+}
+.past-web-image{
+  border:2px solid #2294ca;
+}
+
+@media (min-width : 480px) and (max-width:767px){
+	h1{font-size:30px;}
+	.navbar-brand{
+		padding:0px;
+	}
+	.openshift-logo-header{
+		width: 155px;
+        height: 73px;
+		position: relative;
+    	left: 50%;
+	}
+}
+@media (min-width : 320px) and (max-width: 478px)  {
+	h1{font-size:25px;}
+	.navbar-brand{
+		padding:0px;
+	}
+	.openshift-logo-header{
+		width: 155px;
+        height: 73px;
+		position: relative;
+    	left: 2%;
+	}
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   .web-post-image{
+      height:147px;
+   }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   .web-post-image{
+      height:308px;
+   }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .web-post-image{
+      height:190px;
+   }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .web-post-image{
+      height:308px;
+   }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .web-post-image{
+      height:190px;
+   }
+}

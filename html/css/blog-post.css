@@ -1,0 +1,184 @@
+/*!
+ * Start Bootstrap - Blog Post (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 110px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+}
+bootstrap.min.css:5
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+h1 {
+    font-size: 23px;
+    letter-spacing: 2px;
+    line-height: 40px;
+
+}
+h2 {
+    font-size: 27px;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+
+h3 {
+    font-size: 21px;
+    letter-spacing: 1px;
+    line-height: 32px;
+	    font-weight: 700;
+}
+
+  
+
+h4 {
+    font-size: 17px;
+    letter-spacing: 2px;
+    line-height: 28px;
+	font-weight: 700;
+}
+
+
+
+h5 {
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 23px;
+}
+
+h6 {
+    font-size: 14px;
+    line-height: 18px;
+    
+}
+p {
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+    font-size: 1.1em;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+	margin-bottom: 1.25rem;
+    text-rendering: optimizeLegibility;
+}
+a {
+    font-weight: 700;
+    
+    color: #1E6A9B;
+    position: relative;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a, a:focus, a:active, a:link, img {
+    outline: #000;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: #323232;
+    color: #323232;
+    transition: all 0.25s ease 0s;
+    -moz-transition: all 0.25s ease 0s;
+    -webkit-transition: all 0.25s ease 0s;
+    -o-transition: all 0.25s ease 0s;
+}
+
+a {
+    color: #1E6A9B;
+    -webkit-transition: color .2s ease;
+    -moz-transition: color .2s ease;
+    -ms-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease;
+}
+bootstrap.min.css:1363
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+bootstrap.min.css:36
+a {
+    background-color: transparent;
+}
+bootstrap.min.css:1332
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}
+ a:after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 3px;
+    background: none;
+    left: 0px;
+    bottom: 0px;
+}
+
+
+#section-footer-btm {
+     padding: 25px 0px; 
+     background: #235363; 
+}
+.footer-copy h6, .footer-link ul li a {
+    color: #eee;
+    font-weight: normal;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h6 {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+}
+/*==========Setion BLOG =================*/
+#section-blog{
+    
+}
+.gap-80{
+    height: 80px;
+}
+li {
+	letter-spacing:1px;
+	padding-bottom:8px;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.list-unstyled {
+	list-style: none;
+}
+
+

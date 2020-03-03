@@ -1,0 +1,64 @@
+scp -i /home/ipsg/opskey_db.pem opsmx-analysis.war ubuntu@54.219.182.83:/home/ubuntu
+
+ rm -rf /home/ipsg/.ssh/known_hosts
+
+ssh -i /home/opsmx/opskey_db.pem ubuntu@34.210.36.191
+
+
+sudo rm -rf /root/apache-tomcat-7.0.75/webapps/opsmx-analysis*
+sudo cp opsmx-analysis.war /root/apache-tomcat-7.0.75/webapps/
+sudo /root/apache-tomcat-7.0.75/bin/shutdown.sh
+sudo /root/apache-tomcat-7.0.75/bin/startup.sh
+
+sudo cp opsmx-analysis.war /home/ubuntu
+13.57.8.69
+
+scp -i /home/ipsg/opskey_db.pem monitoring.war ubuntu@13.57.8.69:/home/ubuntu
+
+ssh -i opskey_db.pem ubuntu@13.57.8.69
+
+sudo cp monitoring.war /root/apache-tomcat-7.0.75/webapps/
+
+
+ambari_kairo_n42.pem
+
+monitoring.war
+
+scp -i /home/ipsg/ambari_kairo_n42.1.pem monitoring.war ubuntu@52.8.104.253:/home/ubuntu
+
+ssh -i ambari_kairo_n42.1.pem ubuntu@52.8.104.253
+
+sudo cp monitoring.war /root/apache-tomcat-7.0.75/webapps/
+
+
+
+
+accenture -- 34.209.1.70
+cloudera  -- http://52.52.72.239
+Demo      -- http://54.193.82.193
+Test      -- http://54.219.182.83
+http://54.67.7.16/
+
+
+http://54.153.35.44:8161/opsmx-analysis/public/canaryAnalysis.html?canaryId=317#/
+13.56.162.147
+http://13.56.90.73
+http://52.52.72.239
+http://52.53.118.179/
+54.193.82.193
+http://54.215.191.132
+http://54.67.92.68
+"eyJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJodHRwOi8vb3BzbXguY29tLyIsInN1YiIOv9R0oRERiSJ1TQ"
+ng-app="monitoringApp" ng-controller="applicationCtrl"
+
+scp -r -i /home/ipsg/opskey_db.pem home/ipsg/Desktop/html ubuntu@52.52.72.239:/home/ubuntu
+scp -r -i /home/ipsg/opskey_db.pem /home/ipsg/Desktop/html ubuntu@52.52.72.239:/home/ubuntu
+
+ssh -i /home/ipsg/opskey_db.pem ubuntu@52.53.118.179
+
+scp -r -i /home/ipsg/opskey_db.pem home/ipsg/Desktop/backup/cloudera-25-oct630pm ubuntu@52.52.72.239:/home/ubuntu
+
+copy from server home machine ::::::::::;;;scp -r -i  /home/ipsg/opskey_db.pem  ubuntu@54.193.82.193:/home/ubuntu/opsmx-analysis /home/ipsg/111Backup/
+
+ssh -i spinnaker_kp.pem -L 8084:127.0.0.1:8084 -L 8087:127.0.0.1:8087 -L 9000:127.0.0.1:9000 ubuntu@52.10.141.192
+

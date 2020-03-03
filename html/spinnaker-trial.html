@@ -1,0 +1,574 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="images/icon/opsmx.png" />
+	<title>OpsMx - Power your business with Spinnaker-as-a-service</title>
+	<!-- MAIN CSS FILES===================================
+        ======================================================= -->
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Animation -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Custom CSS -->
+	<!-- <link href="../css/theme.css" rel="stylesheet"> -->
+	<link href="css/color.css" rel="stylesheet">
+	<!-- Responsive styles-->
+	<link rel="stylesheet" href="css/responsive.css">
+	<link href="css/theme.css" rel="stylesheet">
+	<!-- Custom Fonts -->
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- Elegant icon font -->
+	<link rel="stylesheet" href="css/simple-line-icons.css">
+	<link rel="stylesheet" href="css/webinar.css">
+	<link rel="canonical" href="https://www.opsmx.com/spinnaker-trial.html">
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<!-- Global site tag (gtag.js) - Google Ads: 793097158 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-793097158"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-793097158');
+</script>
+
+<!-- Event snippet for OpsMx Leads conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-793097158/3rEtCKj1zbABEMbnlvoC',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PSQ8BPG');</script>
+<!-- End Google Tag Manager -->
+<style>
+	input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+input:-webkit-autofill, 
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 0px solid none;
+  -webkit-text-fill-color: inherit;  
+  transition: background-color 5000s ease-in-out 0s;
+}
+	.validation-messages.ng-active{
+			    color: #dd4b39;	
+			    font-size: 12px;		    
+			 }
+			 .validation-messages{
+		    	color: #dd4b39;
+		    	font-size: 12px;
+			 }  
+ :required  {  
+	 background: url(https://cdn0.iconfinder.com/data/icons/fugue/icon/asterisk-small.png) no-repeat;
+	 background-position:left;
+	}
+	</style>
+</head>
+
+<body ng-app="basicApp" ng-controller="loginCtrl">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PSQ8BPG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	<!-- Navigation -->
+	<nav class="navbar navbar-custom navbar-main main-nav  nav-style" id="section-header">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i>
+				</button>
+				<a class="navbar-brand page-scroll" href="#page-top">
+					<a href="https://www.opsmx.com/">
+						<img src="images/logo.png" alt="logo" class="img-responsive">
+					</a>
+				</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse navbar-right navbar-main-collapse navigation">
+                <ul class="nav navbar-nav">	
+					<li class="dropdown list-item-align">
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
+                        <ul class="dropdown-menu dropdown-align dropdown-menu1 dropdown-line">
+                            <li style="list-style:none;" class="dropdown-submenu"><a class="dropdown-item" tabindex="-1">Spinnaker</a>
+                                <ul class="dropdown-menu dropdown-menu2 dropdown-submenu-line">
+									<li class="list-item-dropdown"><a  href="opensource-spinnaker.html">Open Source Spinnaker</a></li>
+									<li  class="list-item-dropdown"><a  href="enterprise-spinnaker.html">Open Enterprise Spinnaker</a></li>
+									<li  class="list-item-dropdown"><a  href="spinnaker-as-a-service.html">Spinnaker-as-a-Service</a></li>
+									<li  class="list-item-dropdown"><a href="at-a-glance.html">Compare Editions </a></li>
+                                </ul>
+                              </li>
+							  <li  class="list-item-dropdown"><a href="autopilot.html">Autopilot </a></li>
+								<li style="list-style:none;" class="dropdown-submenu"><a class="dropdown-item" tabindex="-1">Services</a>
+									<ul class="dropdown-menu dropdown-menu2 dropdown-submenu-line">
+										<li class="list-item-dropdown"><a href="services.html">Services</a></li>						
+										<li  class="list-item-dropdown"><a href="training.html">Training and Workshops</a></li>
+									</ul>
+                              </li>
+						</ul>
+                    </li>
+					 <li class="list-item-align"><a href="pricing.html">Pricing</a></li>
+					 <!-- <li style="list-style:none;"><a href="at-a-glance.html">PRICING</a></li> -->
+					<li class="list-item-align"><a href="https://docs.opsmx.com/">Docs</a> </li> 
+					<li class="list-item-align"><a class="page-scroll" href="https://blog.opsmx.com/" >Blog</a></li>
+					<li class="dropdown list-item-align">
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Webinars</a>
+                        <ul class="dropdown-menu dropdown-align dropdown-line">
+                                
+                                <li class="list-item-dropdown"><a href="webinar.html">On-Demand Webinars</a></li>	
+							 <li class="list-item-dropdown"><a href="videos.html">Tutorials</a></li>
+							
+						</ul>
+                     </li>
+                     <li class="list-item-align"><a class="page-scroll" href="company.html" >Company</a></li>
+					<li class="list-item-align"><a class="page-scroll" href="https://opsmx.freshdesk.com/support/login" >Login</a></li>
+					<li class="list-item-align"><a  href="contact.html" class="btn btn-sm btn-primary free">CONTACT US</a></li>              
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container -->
+	</nav>
+	<!-- navbar end -->
+	<section style="background-color:#FFFFFF;" id="section-contact">
+		<div class="container">
+			<div class="blog-content text-center">
+				<h3 style="font-size:25px;">Get instant access to Spinnaker</h3>
+				
+			</div>
+			
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 contact-form-wrap col-sm-6">
+					<form ng-submit="onRegister()" name="userForm" novalidate>
+					<div  class="col-md-12">
+					<div class="form-group">
+						<p ng-show="showFailMessages != undefined" class="alert alert-danger" role="alert" style="width:100%;">{{registerMessage.response}}</p>
+						<p ng-show="showSucMessages != undefined" class="alert alert-success" role="alert" style="width:100%;">{{registerMessage.response}}</p>
+						<p ng-show="showError" class="alert alert-danger" role="alert" style="width:100%;">{{errorMessage}}</p>
+					</div>
+					</div>	 
+					<!-- <div ng-show="showSpin != undefined">
+					<div class="form-group">
+						<p class="alert alert-primary text-primary" role="alert" ng-show="showSpin != undefined" style="width:100%;">{{processingMessage}}  </p>  
+					</div>	
+					</div> -->
+					
+					<div>
+					<div class="col-md-12 ">
+							<div class="form-group">
+								<div class="validation-messages ng-scope" ng-show="isMessagesVisible('firstName')" ng-messages="userForm.firstName.$error" ng-cloak>
+									<div class="ng-scope" ng-message="required">The first name is mandatory</div>
+									<div ng-show="userForm.firstName.$error.minlength">first name is too short!</div>
+									
+								</div>
+								<input class="form-control contact-form-field cffield-upper" ng-model="userDetails.firstName" ng-blur="blur('firstName')" name="firstName"  id="firstname" placeholder="First name" type="text" pattern="^[A-Za-z0-9]*$" ng-minlength='3' ng-pattern-restrict no-spaces required="required">
+							
+							</div>
+						</div>
+						<div class="col-md-12 ">
+							<div class="form-group">
+							
+							<div class="validation-messages ng-scope" ng-show="isMessagesVisible('lastName')" ng-messages="userForm.lastName.$error" ng-cloak>
+									<div class="ng-scope" ng-message="required">The last name is mandatory</div>
+									<div ng-show="userForm.lastName.$error.minlength">last name is too short!</div>
+								</div>
+								<input class="form-control contact-form-field cffield-upper" ng-model="userDetails.lastName" ng-blur="blur('lastName')" name="lastName"  id="lastName" placeholder="Last name" type="text"  pattern="^[A-Za-z0-9]*$" ng-minlength='3' ng-pattern-restrict no-spaces required="required">
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="form-group">
+								<div title="tooltip on second input!" class="validation-messages" ng-show="isMessagesVisible('emailId')" ng-messages="userForm.emailId.$error" ng-cloak>
+									<div ng-message="required">The email address is mandatory.</div>
+									<div ng-message="email">Your email address is invalid</div>
+									<div ng-message="userDetails.emailId">Your email address is invalid</div>
+								</div>
+								<input type="email" class="form-control contact-form-field cffield-upper" ng-model="userDetails.emailId" name="emailId" id="emailId" ng-blur="blur('emailId')" placeholder="Email"  data-toggle="tooltip" title="Login instructions will be sent to this email address"  required="required">
+							
+							</div>
+						</div>
+						<div class="col-md-12 ">
+							<div class="form-group">
+								<div class="validation-messages" ng-show="isMessagesVisible('phonenumber')" ng-messages="userForm.phonenumber.$error" ng-cloak>
+									<div ng-message="required">The mobile number is mandatory</div>
+									<div ng-show="userForm.phonenumber.$error.pattern">Please enter in international format mobile number or leave as blank. It should not start with 0.</div>
+								</div>
+								<input class="form-control contact-form-field cffield-upper" name="phonenumber" id="phonenumber" placeholder="Phone number" type="text" ng-model="userDetails.phonenumber" ng-blur="blur('phonenumber')" >
+							</div>
+						</div>
+						<div class="col-md-12">
+							<button class="btn btn-primary feature" type="submit">Get Started <i ng-show="showSpin != undefined" style="color:#fff;" class="fa fa-spinner fa-spin"></i></button>
+						</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<!--/ row -->
+		</div>
+		<!--/ container -->
+	</section>
+	<!-- section footer start -->
+	<section id="section-footer" class="section-padding-saas">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="footer-item news">
+						<h4>Products</h4>
+						<hr class="hr-align">
+						<div class="row">
+							<div class="col-md-12 col-sm-12">
+								<ul class="footer-link">
+									<li class="ordered-list"><a href="https://www.opsmx.com/opensource-spinnaker.html">Open Source Spinnaker </a>
+									</li>
+									<li class="ordered-list"><a href="https://www.opsmx.com/enterprise-spinnaker.html">Open Enterprise Spinnaker</a>
+									</li>
+									<li class="ordered-list"><a href="spinnaker-as-a-service.html">Spinnaker-as-a-Service</a>
+									</li>
+									<li class="ordered-list"><a href="https://www.opsmx.com/autopilot.html">Autopilot</a>
+									</li>
+									<li class="ordered-list"><a href="https://www.opsmx.com/#section-customers">Customers</a>
+									</li>
+									<li class="footer-display" class="ordered-list">
+										<a href="https://www.opsmx.com/#section-solutions"></a>
+									</li>
+									<li class="footer-display" class="ordered-list">
+										<a href="https://www.opsmx.com/#section-solutions"></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="footer-item news">
+						<h4>Company</h4>
+						<hr>
+						<div class="row">
+							<div class="col-md-12 col-sm-12">
+								<ul class="footer-link">
+									<li class="ordered-list"><a href="company.html#section-company">Overview</a>
+									</li>
+									<li class="ordered-list"><a href="team.html">Team</a>
+									</li>
+									<li class="ordered-list"><a href="company.html#section-investors">Investors</a>
+									</li>
+									<li class="ordered-list"><a href="careers.html">Jobs</a>
+									</li>
+									<li class="ordered-list"><a href="contact.html" target="_blank">Contact Us</a>
+									</li>
+									<li class="ordered-list"><a href="locations.html">Locations</a>
+									</li>
+									<li class="footer-display" class="ordered-list">
+										<a href="https://www.opsmx.com/#section-solutions"></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="footer-item news">
+						<h4>Community</h4>
+						<hr>
+						<div class="row">
+							<div class="col-md-12">
+								<ul class="footer-link">
+									<li class="ordered-list"><a href="https://join.spinnaker.io/" target="_blank">Slack</a>
+									</li>
+									<li class="ordered-list"><a href="https://www.spinnaker.io/ebook/" target="_blank">Ebook</a>
+									</li>
+									<li class="ordered-list"><a href="https://stackoverflow.com/search?q=spinnaker" target="_blank">Stackoverflow </a>
+									</li>
+									<li class="ordered-list"><a href="https://community.spinnaker.io/" target="_blank">Community Forum </a>
+									</li>
+									<li class="ordered-list"><a href="https://github.com/spinnaker" target="_blank">GitHub  </a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="footer-item news">
+						<h4>Docs</h4>
+						<hr class="hr-align">
+						<div class="row">
+							<div class="col-md-12 col-sm-12">
+								<ul class="footer-link">
+									<li class="ordered-list"><a href="https://docs.opsmx.com/" target="_blank">OpsMx Docs</a>
+									</li>
+									<li class="ordered-list"><a href="https://www.spinnaker.io/concepts/" target="_blank">Spinnaker Docs</a>
+									</li>
+									<li class="ordered-list"><a href="https://www.opsmx.com/#section-integrations">Integrations</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="footer-item news">
+						<h4>Resources</h4>
+						<hr>
+						<div class="row">
+							<div class="col-md-12 col-sm-12">
+								<ul class="footer-link">
+									<li class="ordered-list"><a href="https://blog.opsmx.com/">Blog</a>
+									</li>
+									<li class="ordered-list"><a href="videos.html">Tutorials</a>
+									</li>
+									<li class="ordered-list"><a href="webinar.html">On-Demand Webinars</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+	<!-- section footer end -->
+	<!-- jQuery -->
+	<script src="js/jquery.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script type="text/javascript" src="https://cdn.rawgit.com/AlphaGit/ng-pattern-restrict/master/src/ng-pattern-restrict.min.js"></script>
+	<script src="js/angular-messages.js"></script>
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Plugin JavaScript -->
+	<script src="js/jquery.easing.min.js"></script>
+	<!-- Sticky JS -->
+	<script type="text/javascript" src="js/jquery.sticky.js"></script>
+	<!-- Waypoints -->
+	<script type="text/javascript" src="js/waypoints.min.js"></script>
+	<!-- jQuery -->
+	<!-- Wow Animation -->
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+	<!-- Custom Theme JavaScript -->
+	<script src="js/theme.js"></script>
+	<script>
+	$(':text[title]').tooltip({
+    placement: "top",
+    trigger: "focus"
+});
+$(document).tooltip({ selector: "[title]",
+                              placement: "bottom",
+                              trigger: "focus",
+                              animation: false}); 
+	</script>
+	<script>
+		// Defining angularjs application.
+var basicApp = angular.module('basicApp', [ 'ngMessages','ngPatternRestrict' ]);
+basicApp.controller('loginCtrl', function($scope, $http, $location, $timeout, $rootScope) {
+$scope.showFailMessages = undefined;
+$scope.showSucMessages = undefined;
+$scope.showSpin = undefined;
+	var fieldWithFocus;
+
+	$scope.userDetails = {
+		submitted : false,
+		errorMessages : []
+	};
+
+	$scope.focus = function(fieldName) {
+		fieldWithFocus = fieldName;
+	};
+
+	$scope.blur = function(fieldName) {
+		fieldWithFocus = undefined;
+	};
+
+	$scope.isMessagesVisible = function(fieldName) {
+		return fieldWithFocus === fieldName || $scope.userDetails.submitted;
+	};
+	$scope.userDetails = {
+
+		firstName : "",
+		lastName : "",
+		emailId : "",
+		phonenumber : ""
+
+	}
+	
+
+
+	/*$scope.ph_numbr = /^[1-9]\d{9}$/;*/
+	$scope.ph_numbr = /(([+][(]?[0-9]{1,3}[)]?)|(^(\([0-9]{3}\) |[0-9]{3}-)[0-9]{3}-[0-9]{4}$)|([(]?[0-9]{4}[)]?))\s*[)]?[-\s\.]?[(]?[0-9]{1,3}[)]?([-\s\.]?[0-9]{3})([-\s\.]?[0-9]{3,4})/g
+	$scope.minlength = 3;
+	//$scope.maxlength = 12;
+	$scope.showMessages = undefined;
+	$scope.showSpin = undefined;
+	$scope.onRegister = function() {
+				var content=		{
+										pageUrl: "https://www.opsmx.com/spinnaker-trial.html",
+										pageName: "Spinnaker Trial",
+										redirectUrl: "https://www.opsmx.com"
+									}
+	var queryString = $.param(content);
+		$scope.hubSpotDetails = {
+			firstname : $scope.userDetails.firstName,
+			lastname  :  $scope.userDetails.lastName,
+			email	  :  $scope.userDetails.emailId,
+			phone	  :  $scope.userDetails.phonenumber,
+			hs_context:  queryString
+	}
+	
+		localStorage.removeItem("registerMsg");
+		$scope.showRegisterMsg = false;
+		$scope.showErrorRegister = false;
+		$scope.userDetails.submitted = true;
+		console.log($scope.hubSpotDetails);
+		if ($scope.userForm.$invalid) {
+			return;
+		}
+		if ($scope.userForm.$valid) {
+			$scope.showSpin = 'coming';
+			
+				// code to save in hubspot
+			console.log("hubspot::"+JSON.stringify($scope.hubSpotDetails));
+		//	$http.post("https://forms.hubspot.com/uploads/form/v2/2985751/53d25712-a6d5-4e7b-b224-05175043e995",$scope.hubSpotDetails).success(function(registerResponse) {
+		//		console.log(registerResponse);
+		//	}).error(function(response) {
+		//		alert(response);
+
+		//	});
+			
+			$http({
+	        method: "POST",
+	        url: "https://forms.hubspot.com/uploads/form/v2/2985751/53d25712-a6d5-4e7b-b224-05175043e995",
+	       // data: $scope.hubSpotDetails,
+			params: {
+					firstname : $scope.userDetails.firstName,
+					lastname  :  $scope.userDetails.lastName,
+					email	  :  $scope.userDetails.emailId,
+					phone	  :  $scope.userDetails.phonenumber,
+					hs_context: queryString
+			},
+			headers: {
+                
+                'Content-Type': 'application/x-www-form-urlencoded'
+				
+            }
+			}).success(function(response) {
+		
+			}).error(function(errorResponse){
+		  
+			});
+			
+			$http.post("https://spintrialapi.opsmx.com:8091/api/v1/registerUser",$scope.userDetails).success(function(registerResponse) {
+				$scope.showError = false;
+				$scope.showErrorRegister = true;
+				$scope.showSpin = undefined;
+				//$scope.processingMessage = "Registering your OpsMx free trial request";
+				if(registerResponse.status === false){
+				$scope.showError = false;
+				$scope.showSpin = undefined;
+					$scope.showFailMessages = 'getting';
+				}else{
+				$scope.showSpin = undefined;
+				$scope.showError = false;
+					$scope.showSucMessages = 'pass';
+				}
+				
+				
+				$scope.registerMessage = registerResponse;
+				$scope.showSpin = undefined;
+				$rootScope.registerData = registerResponse.response;
+				$scope.userDetails = {}
+			}).error(function(response) {
+				$scope.showSpin = undefined;
+				$scope.showFailMessages = undefined;
+				$scope.showSucMessages = undefined;
+				$scope.showError = true;
+				$scope.errorMessage = 'Server down, please try after sometime.';
+
+			});
+			
+		
+		}
+	}
+});
+
+basicApp.directive('noSpaces', function() {
+	return {
+		require : 'ngModel',
+		link : function(scope, element, attrs, ngModel) {
+			attrs.ngTrim = 'false';
+
+			element.bind('keydown', function(e) {
+				if (e.which === 32) {
+					e.preventDefault();
+					return false;
+				}
+			});
+
+			ngModel.$parsers.unshift(function(value) {
+				var spacelessValue = value.replace(/ /g, '');
+
+				if (spacelessValue !== value) {
+					ngModel.$setViewValue(spacelessValue);
+					ngModel.$render();
+				}
+
+				return spacelessValue;
+			});
+		}
+	};
+});
+
+basicApp.directive('updateTitle', [ '$rootScope', '$timeout',
+		function($rootScope, $timeout) {
+			return {
+				link : function(scope, element) {
+					var listener = function(event, toState) {
+						var title = 'Default Title';
+						if (toState.data && toState.data.pageTitle)
+							title = toState.data.pageTitle;
+
+						$timeout(function() {
+							element.text(title);
+						}, 0, false);
+					};
+
+					$rootScope.$on('$stateChangeSuccess', listener);
+				}
+			};
+		} ]);
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="OpsMx Autopilot enables secure & self-driven application. Our Autopilot deploys safer using machine learning (ML) to do Automated and Continuous Verification of Applications.">
+	<meta name="keywords" content="Spinnaker, Continuous Delivery, OpsMx, Continous Verification, OpenShift, Kubernetes">
+    <meta name="author" content="OpsMx">
+	<link rel="icon" href="images/icon/opsmx.png" />
+
+    <title>Autopilot|Automated Machine Learning Continuous Verification-OpsMx</title>
+
+        <!-- MAIN CSS FILES===================================
+        ======================================================= -->
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Animation -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Custom CSS -->
+    <link href="css/theme.css" rel="stylesheet">
+    <link href="css/color.css" rel="stylesheet">
+    <!-- Responsive styles-->
+    <link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css">
+    <!-- Custom Fonts -->
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Elegant icon font -->
+    <link rel="stylesheet" href="css/simple-line-icons.css">
+	<link rel="canonical" href="https://www.opsmx.com/autopilot.html">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<!-- Hotjar Tracking Code for https://www.opsmx.com/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1288532,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<!-- Global site tag (gtag.js) - Google Ads: 793097158 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-793097158"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-793097158');
+</script>
+
+<!-- Event snippet for OpsMx Leads conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-793097158/3rEtCKj1zbABEMbnlvoC',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PSQ8BPG');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navigation" ng-app="postApp" ng-controller="postController">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PSQ8BPG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- Tracking code for website -->
+	<script type="text/javascript" src="https://www.ches5sort.com/js/168186.js" ></script>
+	<noscript><img alt="" src="https://www.ches5sort.com/168186.png" style="display:none;" /></noscript>
+<!-- End of Tracking code for website -->
+<div class="banner-content">
+      <a href="https://go.opsmx.com/spinnaker-summit-san-diego" target="_blank"class="Banner__button">
+                <span class="banner-title">Spinnaker summit - Use OPSMX20 and get a discount of 20% on booking tickets</span> &nbsp;&nbsp;
+                <span target="_blank" class="discount-code"style="border-radius: 4px !important;">Book Now</span>
+            </a>
+  </div>
+<!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-main main-nav nav-style" id="section-header">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                <a href="https://www.opsmx.com/"> <img src="images/logo.png" alt="logo" class="img-responsive"></a>
+
+                </a>
+            </div>
+
+           <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse navbar-right navbar-main-collapse navigation">
+                <ul class="nav navbar-nav">	
+					<li class="dropdown list-item-align">
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
+                        <ul class="dropdown-menu dropdown-align dropdown-menu1 dropdown-line">
+                            <li style="list-style:none;" class="dropdown-submenu"><a class="dropdown-item" tabindex="-1">Spinnaker</a>
+                                <ul class="dropdown-menu dropdown-menu2 dropdown-submenu-line">
+									<li class="list-item-dropdown"><a  href="opensource-spinnaker.html">Open Source Spinnaker</a></li>
+									<li  class="list-item-dropdown"><a  href="enterprise-spinnaker.html">Open Enterprise Spinnaker</a></li>
+									<li  class="list-item-dropdown"><a  href="spinnaker-as-a-service.html">Spinnaker-as-a-Service</a></li>
+									<li  class="list-item-dropdown"><a href="at-a-glance.html">Compare Editions </a></li>
+                                </ul>
+                              </li>
+							  <li  class="list-item-dropdown"><a href="autopilot.html">Autopilot </a></li>
+								<li style="list-style:none;" class="dropdown-submenu"><a class="dropdown-item" tabindex="-1">Services</a>
+									<ul class="dropdown-menu dropdown-menu2 dropdown-submenu-line">
+										<li class="list-item-dropdown"><a href="services.html">Services</a></li>						
+										<li  class="list-item-dropdown"><a href="training.html">Training and Workshops</a></li>
+									</ul>
+                              </li>
+						</ul>
+                    </li>
+					 <li class="list-item-align"><a href="pricing.html">Pricing</a></li>
+					 <!-- <li style="list-style:none;"><a href="at-a-glance.html">PRICING</a></li> -->
+					<li class="list-item-align"><a href="https://docs.opsmx.com/">Docs</a> </li> 
+					<li class="list-item-align"><a class="page-scroll" href="https://blog.opsmx.com/" >Blog</a></li>
+					<li class="dropdown list-item-align">
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Webinars</a>
+                        <ul class="dropdown-menu dropdown-align dropdown-line">
+                                
+                                <li class="list-item-dropdown"><a href="webinar.html">On-Demand Webinars</a></li>	
+							 <li class="list-item-dropdown"><a href="videos.html">Tutorials</a></li>
+							
+						</ul>
+                     </li>
+                     <li class="list-item-align"><a class="page-scroll" href="company.html" >Company</a></li>
+					<li class="list-item-align"><a class="page-scroll" href="https://opsmx.freshdesk.com/support/login" >Login</a></li>
+					<li class="list-item-align"><a  href="contact.html" class="btn btn-sm btn-primary free">CONTACT US</a></li>              
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+        <!-- navbar end -->
+
+ 
+
+     <!--section Pricing start-->
+     
+     <!-- section Autopilot – Automated Release Risk Assessment start-->
+
+    <section id="section-pricing" class="section-padding">
+        <div class="container">
+            <div class="row autopilot-risk">
+                <div class="col-md-12">
+                    <div class="section-heading text-center wow" >
+                        <h1>Autopilot – Automated Risk Assessment, Audit & Compliance</h1>
+                        <h5>Consolidated Risk Reporting for each Pipeline Run
+                            </h5>
+						
+                    </div>
+                </div>
+            </div>
+<!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h5 class="modal-title"> Continuous Verification for Your CI/CD Platform</h5>
+        </div>
+        <div class="modal-body">
+          <div class="service-itm-videos">
+                                      <div class="embed-responsive embed-responsive-16by9">
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/J7aIVG7wOXc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                     </div>
+                                    </div>
+        </div>
+        <!--<div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        </div>-->
+      </div>
+      
+    </div>
+  </div>
+            <div class="row">
+                <div class="col-md-6">
+               <div class="blog-box blog-big">
+               <div class="blog-content">
+                 <div  class="analyze-logs">
+                    <span class="glyphicon glyphicon-ok glyphicon-ring ring-color" ></span>
+                     <div class="confidence">
+                       <h3 class="confidence-header">
+                               Analyze Logs/APM/Metrics
+                       </h3>
+                        <p class="confidence-subheading">
+                               Evaluate all available sources of data and assess risk
+                       </p>
+                     </div>
+                   
+                  </div>
+              
+             
+                    <div class="confidence-margin">
+                            <span class="glyphicon glyphicon-ok glyphicon-ring ring-color" ></span>
+                           <div class="confidence">
+                                       <h3 class="confidence-header">
+                                               Consolidate Risk Scoring
+                                       </h3>
+                                      <p class="confidence-subheading">
+                                           Get individual and blended scoring to quickly evaluate risk for releases
+                                      </p>
+                           </div>
+                     </div>
+             
+             
+                   <div class="confidence-margin">
+                           <span class="glyphicon glyphicon-ok glyphicon-ring ring-color"></span>
+                          <div class="confidence">
+                                      <h3 class="confidence-header">
+                                           Set Up Custom Alerts
+                                      </h3>
+                                     <p class="confidence-subheading">
+                                           Get notified of pre-determined events happening with custom alerts
+                                     </p>
+                          </div>
+                   </div>
+             
+            
+                   <div class="confidence-margin">
+                           <span class="glyphicon glyphicon-ok glyphicon-ring ring-color"></span>
+                          <div class="confidence">
+                                      <h3 class="confidence-header">
+                                           Get Confidence with Risk Scoring
+                                      </h3>
+                                     <p class="confidence-subheading">
+                                           Get confidence scoring based on sophisticated statistical measure to feel confident of risk scores
+                                     </p>
+                          </div>
+                   </div>
+           </div>
+       </div>
+            </div>
+            <div class="col-md-6 autopilot-image">
+                 <img src="images/autopilot-risk.png" alt="audit-risk-image">
+            </div>
+        </div>
+      </div>
+    </section>
+
+     <!--section Autopilot Deploy Safer using ML based Continuous Verification start-->
+         <section id="section-pricing" class="section-padding">
+            <div class="container">
+                <div class="row autopilot-risk">
+                    <div class="col-md-12">
+                        <div class="section-heading text-center wow " >
+                            <h1>Autopilot Deploy Safer using ML based Continuous Verification</h1>
+                            <h5>Use Machine Learning to do Automated and Continuous Verification of Applications
+                                </h5>
+                        </div>
+                    </div>
+                </div>
+    
+                 <div class="row">
+                 <div class="col-md-6">
+                <div class="blog-box blog-big">
+                <div class="blog-content">
+                  <div  class="analyze-logs">
+                     <span class="glyphicon glyphicon-ok glyphicon-ring ring-color"></span>
+                      <div class="confidence">
+                        <h3 class="confidence-header">
+                                Reduce Time and Errors
+                        </h3>
+                         <p class="confidence-subheading">
+                                Automate new release verification to reduce time-consuming  and error prone manual verification
+                        </p>
+                      </div>
+                    
+                   </div>
+               
+              
+                     <div class="confidence-margin">
+                             <span class="glyphicon glyphicon-ok glyphicon-ring ring-color"></span>
+                            <div class="confidence">
+                                        <h3 class="confidence-header">
+                                                Intelligently Control Rollouts
+                                        </h3>
+                                       <p class="confidence-subheading">
+                                            Use ML based intelligence to control app rollout via canary, blue/green or rolling update
+                                       </p>
+                            </div>
+                      </div>
+              
+              
+                    <div class="confidence-margin">
+                            <span class="glyphicon glyphicon-ok glyphicon-ring ring-color" ></span>
+                           <div class="confidence">
+                                       <h3 class="confidence-header">
+                                            Diagnostic Feedback 
+                                       </h3>
+                                      <p class="confidence-subheading">
+                                            Get dev and ops to understand the new release issues with ease.
+                                      </p>
+                           </div>
+                    </div>
+              
+             
+                    <div class="confidence-margin">
+                            <span class="glyphicon glyphicon-ok glyphicon-ring ring-color"></span>
+                           <div class="confidence">
+                                       <h3 class="confidence-header">
+                                            Avoid Disruption
+                                       </h3>
+                                      <p class="confidence-subheading">
+                                            Continue to monitor applications after rollout to production to detect issue and rollback to avoid disruptions
+                                      </p>
+                           </div>
+                    </div>
+            </div>
+        </div>
+             </div>
+             <div class="col-md-6 autopilot-image">
+                  <img src="images/autopilot-ml.png" alt="autopilot-ml">
+             </div>
+        </div>  
+        
+            </div>
+        </section>
+
+     <!--section  Autopilot - Easy Application Onboarding start-->
+
+    <section id="section-pricing" class="section-padding">
+        <div class="container">
+            <div class="row autopilot-risk">
+                <div class="col-md-12">
+                    <div class="section-heading text-center wow " >
+                        <h1>Autopilot - Easy Application Onboarding</h1>
+                        <h5>OpsMx Autopilot Enables Secure and Self-driven Aplication Onboarding</h5>
+                    </div>
+                </div>
+            </div>
+
+             <div class="row">
+             <div class="col-md-6">
+            <div class="blog-box blog-big">
+			<div class="blog-content">
+              <div  class="analyze-logs">
+                 <span class="glyphicon glyphicon-ok glyphicon-ring ring-color"></span>
+                  <div class="confidence">
+                    <h3 class="confidence-header">
+                    Managed Pipeline
+                    </h3>
+                     <p class="confidence-subheading">
+                    Centrally manage pipelines to eliminate pipeline sprawl and ensure best practice and compilance
+                    </p>
+                  </div>
+                
+               </div>
+           
+          
+                 <div class="confidence-margin">
+                         <span class="glyphicon glyphicon-ok glyphicon-ring ring-color"></span>
+                        <div class="confidence">
+                                    <h3 class="confidence-header">
+                                            GitOps for Pipeline – as - code
+                                    </h3>
+                                   <p class="confidence-subheading">
+                                        Manage pipeline-as-code with versioning and automate update of pipeline changes to Spinnaker
+                                   </p>
+                        </div>
+                  </div>
+          
+          
+                <div class="confidence-margin">
+                        <span class="glyphicon glyphicon-ok glyphicon-ring ring-color"></span>
+                       <div class="confidence">
+                                   <h3 class="confidence-header">
+                                           Automated App Onboarding
+                                   </h3>
+                                  <p class="confidence-subheading">
+                                        Automated app pipeline creation based on template and meta-data
+                                  </p>
+                       </div>
+                </div>
+          
+         
+                <div class="confidence-margin">
+                        <span class="glyphicon glyphicon-ok glyphicon-ring ring-color"></span>
+                       <div class="confidence">
+                                   <h3 class="confidence-header">
+                                        Multi-Service Applications
+                                   </h3>
+                                  <p class="confidence-subheading">
+                                        Manage multi-service application dependencies and co-ordinate releases
+                                  </p>
+                       </div>
+                </div>
+        </div>
+	</div>
+         </div>
+         <div class="col-md-6 autopilot-image">
+              <img src="images/easy-on-boarding.png" alt="easy-on-boarding">
+         </div>
+    </div>  
+	
+        </div>
+    </section>
+
+     <!--section Autopilot – Audit and Ensure Compliance start-->
+
+     <section id="section-pricing" class="section-padding">
+        <div class="container">
+            <div class="row autopilot-risk">
+                <div class="col-md-12">
+                    <div class="section-heading text-center wow " >
+                        <h1>Autopilot – Audit and Ensure Compliance</h1>
+                        <h5>OpsMx Autopilot provides 100% auditability and policy control for your Enterprise
+                            </h5>
+                    </div>
+                </div>
+            </div>
+
+             <div class="row">
+             <div class="col-md-6">
+            <div class="blog-box blog-big">
+			<div class="blog-content">
+              <div  class="analyze-logs">
+                 <span class="glyphicon glyphicon-ok glyphicon-ring ring-color"></span>
+                  <div class="confidence">
+                    <h3 class="confidence-header">
+                            Centralize Policy Enforcement
+                    </h3>
+                     <p class="confidence-subheading">
+                            Enforce Enterprise policy for all applications
+                    </p>
+                  </div>
+                
+               </div>
+           
+          
+                 <div class="confidence-margin">
+                         <span class="glyphicon glyphicon-ok glyphicon-ring ring-color"></span>
+                        <div class="confidence">
+                                    <h3 class="confidence-header">
+                                            Audit 100% of CD
+                                    </h3>
+                                   <p class="confidence-subheading">
+                                        Never be in the dark on who deployed, what and who approved the pipelines or who changed pipeline
+                                   </p>
+                        </div>
+                  </div>
+          
+          
+                <div class="confidence-margin">
+                        <span class="glyphicon glyphicon-ok glyphicon-ring ring-color"></span>
+                       <div class="confidence">
+                                   <h3 class="confidence-header">
+                                        Get Notified of Violations
+                                   </h3>
+                                  <p class="confidence-subheading">
+                                        Notify Ops/Security for any violations to policies and regulations
+                                  </p>
+                       </div>
+                </div>
+          
+         
+                <div class="confidence-margin">
+                        <span class="glyphicon glyphicon-ok glyphicon-ring ring-color"></span>
+                       <div class="confidence">
+                                   <h3 class="confidence-header">
+                                        Automate Compliance Checks
+                                   </h3>
+                                  <p class="confidence-subheading">
+                                        Ensure compliance with built-in checks as well as  external tool integration
+                                  </p>
+                       </div>
+                </div>
+        </div>
+	</div>
+         </div>
+         <div class="col-md-6 autopilot-image">
+              <img src="images/autopilot-audit.png" alt="autopilot-audit-image">
+         </div>
+    </div>  
+	<br><br>
+	<div class="col-md-8 col-md-offset-2">
+	 
+		<div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/J7aIVG7wOXc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>		
+			<br><div><h5 class="text-center"><i class="fa fa-play-circle" aria-hidden="true"></i> Watch Demo to learn about Autopilot</a></h5></div>
+     </div>
+	
+        </div>
+		 
+    </section>
+ 
+  <!--  section service end
+ -->
+   
+								
+			<!-- section footer start -->
+            <section id="section-footer" class="section-padding">
+                    <div class="container">
+                      <div class="row">			
+                                      
+                            <div class="col-md-3">
+                               <div class="footer-item news">
+                                   <h4>Products</h4>
+                                    <hr class="hr-align">
+                                   <div class="row">
+                                       <div  class="col-md-12 col-sm-12">
+                                           <ul class="footer-link" >
+                                           
+                                           <li class="ordered-list"><a href="https://www.opsmx.com/opensource-spinnaker.html">Open Source Spinnaker </a></li>
+                                           <li class="ordered-list"><a href="https://www.opsmx.com/enterprise-spinnaker.html">Open Enterprise Spinnaker</a></li>
+                                           <li class="ordered-list"><a href="spinnaker-as-a-service.html">Spinnaker-as-a-Service</a></li>
+										   <li class="ordered-list"><a href="https://www.opsmx.com/autopilot.html">Autopilot</a></li>
+                                                <li class="ordered-list"><a href="https://www.opsmx.com/#section-customers" >Customers</a></li>  
+                                            <li class="footer-display" class="ordered-list"><a href="https://www.opsmx.com/#section-solutions"></a></li>	
+                                            <li class="footer-display" class="ordered-list"><a href="https://www.opsmx.com/#section-solutions"></a></li>	
+                                            <li class="footer-display" class="ordered-list"><a href="https://www.opsmx.com/#section-solutions"></a></li>									
+                                         
+                                           </ul>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                              <div class="footer-item news">
+                                   <h4>Company</h4>
+                                    <hr>
+                                   <div class="row">
+                                       <div  class="col-md-12 col-sm-12">
+                                           <ul class="footer-link" >
+                                             <li class="ordered-list"><a href="company.html#section-company">Overview</a></li>
+                                               <li class="ordered-list"><a href="team.html">Team</a></li>
+                                           
+                                               <li class="ordered-list"><a href="company.html#section-investors">Investors</a></li>
+                                                <li class="ordered-list"><a href="careers.html">Jobs</a></li>
+                                                <li class="ordered-list"><a href="contact.html" target="_blank">Contact Us</a></li>
+                                                 <li class="ordered-list"><a href="locations.html">Locations</a></li>
+                                                 <li class="footer-display" class="ordered-list"><a href="https://www.opsmx.com/#section-solutions"></a></li>	
+                                           </ul>
+                                       </div>
+                                   </div>
+                                </div>
+                                        
+                            </div>
+                    
+                            <div class="col-md-2">
+                            <div class="footer-item news">
+                                   <h4>Community</h4>
+                                   <hr>
+                                   <div class="row">
+                                       <div  class="col-md-12">
+                                           <ul class="footer-link" >
+                                                  <li  class="ordered-list"><a href="https://join.spinnaker.io/" target="_blank">Slack</a></li>
+                                                  <li  class="ordered-list"><a href="https://www.spinnaker.io/ebook/" target="_blank">Ebook</a></li>
+                                                  <li class="ordered-list"><a href="https://stackoverflow.com/search?q=spinnaker" target="_blank">Stackoverflow </a></li>
+                                                  <li class="ordered-list"><a href="https://community.spinnaker.io/" target="_blank">Community Forum </a></li>
+                                                  <li class="ordered-list"><a href="https://github.com/spinnaker" target="_blank">GitHub  </a></li>
+                                                  
+                                           </ul>
+                                       </div>
+                                       
+                                       
+                                   </div>
+                                </div>
+                                </div>
+                                <div class="col-md-2">
+                                <div class="footer-item news">
+                                        <h4>Docs</h4>
+                                           <hr class="hr-align">
+                                        <div class="row">
+                                            <div  class="col-md-12 col-sm-12">
+                                                <ul class="footer-link" >
+                                                 <li class="ordered-list"><a href="https://docs.opsmx.com/" target="_blank">OpsMx Docs</a></li>
+                                                 <li class="ordered-list"><a href="https://www.spinnaker.io/concepts/" target="_blank">Spinnaker Docs</a></li>
+                                                 <li class="ordered-list"><a href="https://www.opsmx.com/#section-integrations">Integrations</a></li>
+                                                 
+                                                </ul>
+                                            </div>
+                                          
+                                        </div>
+                                     </div>
+                                     </div>
+                                
+                            
+                            <div class="col-md-3">
+                            <div class="footer-item news">
+                                    <h4>Resources</h4>
+                                     <hr>
+                                    <div class="row">
+                                        <div  class="col-md-12 col-sm-12">
+                                            <ul class="footer-link" >
+                                               <li class="ordered-list"><a href="https://blog.opsmx.com/">Blog</a></li> 
+                                                <li class="ordered-list"><a href="videos.html" >Tutorials</a></li>
+                                                 <li class="ordered-list"><a href="webinar.html" >On-Demand Webinars</a></li> 
+                                              
+                                            </ul>
+                                        </div>
+                                       </div>
+                                 </div>
+                                </div>
+                            
+                       
+             </div>
+             
+             
+                </section>
+    <!-- section footer end -->
+
+    <!-- section btm footer start -->
+    <!--   <footer id="section-footer-btm">
+        <div class="container">
+            <div class="row">
+                <div style="float:center;" class="col-md-10 col-sm-10">
+                    <div class="footer-copy ">
+                        <h6>Email : <span> info@opsmx.com </span></h6>
+                    </div>
+                </div>
+              <!--   <div class="col-md-6 col-sm-6">
+                    <div class="footer-btm-link">
+                        <ul class="list-inline text-right">
+                            <li><a href="#">terms &amp; conditions</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">home</a></li>
+                        </ul>
+                    </div>
+                </div> -->
+            </div> <!--/ row -->
+        </div> <!--/ container -->
+    </footer>
+	
+    <!-- section footer end -->
+	
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+	 <script src= "js/angular.min.js"></script> 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="ui-bootstrap.min.js"></script>
+	<script src="js/indexApp.js"></script>
+	<script type="text/javascript" src="js/contactController.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+      <!-- Sticky JS -->
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+    <!-- Waypoints -->
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
+	<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+    <!-- jQuery -->
+    <!-- Wow Animation -->
+    <script type="text/javascript" src="js/wow.min.js"></script>
+ <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/theme.js"></script>
+	
+    <script>
+            $(".main-nav").sticky();
+
+    </script><!-- Waypoints -->
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
+    <!-- Wow Animation -->
+    <script type="text/javascript" src="js/wow.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/theme.js"></script>
+
+
+<script src="https://cdn.smooch.io/smooch.min.js"></script>
+<!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="https://js.hs-scripts.com/2985751.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+</body>
+</html>
+  

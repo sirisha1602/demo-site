@@ -1,0 +1,68 @@
+<header class="md-header" data-md-component="header">
+<!--<div class="banner-content">
+		<div><a data-fancybox data-options='{"caption" : "FREE TRIAL", "src" : "https://share.hsforms.com/1qYZkIElRQv2aWJaLWkAqnA1rztj", "type" : "iframe"}' href="javascript:;">
+			FREE TRIAL
+							
+						</a>
+		</div>
+
+	</div>-->
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="http://opsmx.com/" title="{{ config.site_name }}" class="md-header-nav__button md-logo">
+          {% if config.theme.logo.icon %}
+            <i class="md-icon">{{ config.theme.logo.icon }}</i>
+          {% else %}
+           <img style="width:90px;" src="{{ base_url }}/{{ config.theme.logo }}" >
+          {% endif %}
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button button-nav" for="__drawer"></label>
+      </div>
+	
+     <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title" style="width:100px;">
+		
+          <!--{% block site_name %}
+            {% if config.site_name == page.title %}
+              {{ config.site_name }}
+            {% else %}
+              <span class="md-header-nav__topic">
+                {{ config.site_name }}
+              </span>
+              <span class="md-header-nav__topic">
+                {{ page.title }}
+              </span>
+            {% endif %}
+          {% endblock %}-->
+		  <div class="home-pad"style="color: #2294ca;text-transform: none;font-size: 18px;font-weight: 400;width:100px;padding-top: 4px;
+    "><a href="http://www.opsmx.com/" target="_blank">Home</a></div>
+        </div>
+      </div>
+	   <div  class="md-flex__cell md-flex__cell--shrink search-box">
+        {% block search_box %}
+          {% if "search" in config["plugins"] %}
+            <label class="md-icon md-icon--search md-header-nav__button button-nav" for="__search"></label>
+            {% include "partials/search.html" %}
+          {% endif %}
+        {% endblock %}
+      </div>
+       <div class="md-flex__cell md-flex__cell--stretch">
+      
+      </div>
+	   
+      {% if config.repo_url %}
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            {% include "partials/source.html" %}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+	
+  </nav>
+  
+  
+</header>

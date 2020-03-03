@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://www.opsmx.com/</loc>
+  <lastmod>2019-10-09</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.opsmx.com/opensource-spinnaker.html</loc>
+  <lastmod>2019-10-09</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.95</priority>
+</url>
+<url>
+  <loc>https://www.opsmx.com/enterprise-spinnaker.html</loc>
+  <lastmod>2019-10-09</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.95</priority>
+</url>
+<url>
+  <loc>https://www.opsmx.com/spinnaker-as-a-service.html</loc>
+  <lastmod>2019-10-09</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.95</priority>
+</url>
+<url>
+  <loc>https://www.opsmx.com/at-a-glance.html</loc>
+  <lastmod>2019-10-09</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.95</priority>
+</url>
+<url>
+  <loc>https://www.opsmx.com/autopilot.html</loc>
+  <lastmod>2019-10-09</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.95</priority>
+</url>
+<url>
+  <loc>https://www.opsmx.com/services.html</loc>
+  <lastmod>2019-10-09</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.opsmx.com/training.html</loc>
+  <lastmod>2019-10-09</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.opsmx.com/pricing.html</loc>
+  <lastmod>2019-10-09</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.opsmx.com/webinar.html</loc>
+  <lastmod>2019-10-09</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.opsmx.com/videos.html</loc>
+  <lastmod>2019-10-09</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.opsmx.com/company.html</loc>
+  <lastmod>2019-10-09</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.opsmx.com/contact.html</loc>
+  <lastmod>2019-10-09</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.95</priority>
+</url>
+<url>
+  <loc>https://www.opsmx.com/spinnakervideo.html</loc>
+  <lastmod>2019-10-09</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.opsmx.com/team.html</loc>
+  <lastmod>2019-10-09</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.85</priority>
+</url>
+<url>
+  <loc>https://www.opsmx.com/careers.html</loc>
+  <lastmod>2019-10-09</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.opsmx.com/locations.html</loc>
+  <lastmod>2019-10-09</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.85</priority>
+</url>
+</urlset>

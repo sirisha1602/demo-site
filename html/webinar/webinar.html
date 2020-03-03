@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Learn about Spinnaker Multi-Cloud Continuous Delivery through free educational webinars">
+    <meta name="author" content="OpsMx - Webinars">
+	  <meta name="keywords" content="Spinnaker, Continuous Delivery, OpsMx, Continous Verification, OpenShift, Kubernetes">
+	  <link rel="icon" href="../images/icon/opsmx.png" />
+    <title>OpsMx - Webinars</title>
+
+    <!-- MAIN CSS FILES========================================================================================== -->
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Animation -->
+    <link rel="stylesheet" href="../css/animate.css">
+    <!-- Custom CSS -->
+    <link href="../css/theme.css" rel="stylesheet">
+    <link href="../css/color.css" rel="stylesheet">
+    <!-- Responsive styles-->
+    <link rel="stylesheet" href="../css/responsive.css">
+	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="../css/webinar.css">
+    <!-- Custom Fonts -->
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <!-- Elegant icon font -->
+    <link rel="stylesheet" href="../css/simple-line-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<!-- Hotjar Tracking Code for https://www.opsmx.com/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1288532,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<!-- Global site tag (gtag.js) - Google Ads: 793097158 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-793097158"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-793097158');
+</script>
+
+<!-- Event snippet for OpsMx Leads conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-793097158/3rEtCKj1zbABEMbnlvoC',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navigation" ng-app="postApp" ng-controller="postController">
+<!-- Tracking code for website -->
+	<script type="text/javascript" src="https://www.ches5sort.com/js/168186.js" ></script>
+	<noscript><img alt="" src="https://www.ches5sort.com/168186.png" style="display:none;" /></noscript>
+<!-- End of Tracking code for website -->
+<div class="banner-content">
+		<div>
+			<a href="https://go.opsmx.com/spinnaker-summit-san-diego-offer" target="_blank"
+				class="Banner__button"><span class="banner-title">Spinnaker summit- Get 20% off and win complimentary tickets</span> </a>
+			&nbsp;&nbsp;<a href="https://go.opsmx.com/spinnaker-summit-san-diego-offer" target="_blank" class="discount-code">Register Now</a>
+			
+		</div>
+	</div>
+  <nav class="navbar navbar-custom navbar-main main-nav nav-style" id="section-header">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                <a href="https://www.opsmx.com/"> <img src="../images/logo.png" alt="logo" class="img-responsive"></a>
+
+                </a>
+            </div>
+
+           <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse navbar-right navbar-main-collapse navigation">
+                <ul class="nav navbar-nav">	
+					<li class="dropdown list-item-align">
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
+                        <ul class="dropdown-menu dropdown-align dropdown-menu1 dropdown-line">
+                            <li style="list-style:none;" class="dropdown-submenu"><a class="dropdown-item" tabindex="-1">Spinnaker</a>
+                                <ul class="dropdown-menu dropdown-menu2 dropdown-submenu-line">
+									<li class="list-item-dropdown"><a  href="../opensource-spinnaker.html">Open Source Spinnaker</a></li>
+									<li  class="list-item-dropdown"><a  href="../enterprise-spinnaker.html">Open Enterprise Spinnaker</a></li>
+									<li  class="list-item-dropdown"><a  href="../spinnaker-as-a-service.html">Spinnaker-as-a-Service</a></li>
+									<li  class="list-item-dropdown"><a href="../at-a-glance.html">Compare Editions </a></li>
+                                </ul>
+                              </li>
+							  <li  class="list-item-dropdown"><a href="../autopilot.html">Autopilot </a></li>
+								<li style="list-style:none;" class="dropdown-submenu"><a class="dropdown-item" tabindex="-1">Services</a>
+									<ul class="dropdown-menu dropdown-menu2 dropdown-submenu-line">
+										<li class="list-item-dropdown"><a href="../services.html">Services</a></li>						
+										<li  class="list-item-dropdown"><a href="../training.html">Training and Workshops</a></li>
+									</ul>
+                              </li>
+						</ul>
+                    </li>
+					 <li class="list-item-align"><a href="../pricing.html">Pricing</a></li>
+					 <!-- <li style="list-style:none;"><a href="at-a-glance.html">PRICING</a></li> -->
+					<li class="list-item-align"><a href="https://docs.opsmx.com/">Docs</a> </li> 
+					<li class="list-item-align"><a class="page-scroll" href="https://blog.opsmx.com/" >Blog</a></li>
+					<li class="dropdown list-item-align">
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Webinars</a>
+                        <ul class="dropdown-menu dropdown-align dropdown-line">
+                                
+                                <li class="list-item-dropdown"><a href="../webinar.html">On-Demand Webinars</a></li>	
+							 <li class="list-item-dropdown"><a href="../videos.html">Tutorials</a></li>
+							
+						</ul>
+                     </li>
+                     <li class="list-item-align"><a class="page-scroll" href="../company.html" >Company</a></li>
+					<li class="list-item-align"><a class="page-scroll" href="https://opsmx.freshdesk.com/support/login" >Login</a></li>
+					<li class="list-item-align"><a  href="../contact.html" class="btn btn-sm btn-primary free">CONTACT US</a></li>              
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+        <!-- navbar end -->
+    
+
+      <section id="section-webinar">
+        <div class="container">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                  <div class="section-heading text-center wow m40" >
+                      <h1>On-Demand Webinars</h1>                        
+                  </div>
+            </div>
+         <div class="row">
+		  <div class="col-md-4 col-sm-4 col-xs-12 past-web-outer" >
+                        <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">
+                         <a href="https://register.gotowebinar.com/recording/6972275212831708675" target="_blank" class="jobTitle">   <img class="imgAlign img-responsive past-web-image img-webinar" src="../images/webinar/aws-eks-with-spinnaker.PNG" alt="opsmx-awseks"/></a>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">                       
+                            <span class="pull-left text-blue col-md-12 col-sm-12 col-xs-12 padding0">September 2019</span> 
+                            <p class="f20 past-web-head">Accelerate Application Deployment to AWS EKS with Spinnaker</p>   
+                            <p class="f17">In this webinar, we will be discussing how to accelerate application deployments to AWS EKS using Spinnaker, prerequisites to setup AWS EKS with Spinnaker, walk through the AWS EKS integration and Istio integration</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box past-web-watchnow">
+                            <a href="https://register.gotowebinar.com/recording/6972275212831708675" target="_blank" class="past-web-link">Watch here</a>                                               
+                        </div>
+                    </div>
+		   <div class="col-md-4 col-sm-4 col-xs-12 past-web-outer" >
+                        <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">
+                         <a href="https://register.gotowebinar.com/recording/5660394013057445889" target="_blank" class="jobTitle">   <img class="imgAlign img-responsive past-web-image img-webinar" src="../images/webinar/opsmx-platform91.PNG" alt="opsmx-platform9"/></a>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">                       
+                            <span class="pull-left text-blue col-md-12 col-sm-12 col-xs-12 padding0">August 2019</span> 
+                            <p class="f20 past-web-head">Leveraging Kubernetes & Spinnaker for CI/CD as a service</p>   
+                            <p class="f17">In this webinar, Balaji Siva from OpsMx and Kamesh Pemmaraju, Eric Bannon from Platform9 speak about how to leverage Kubernetes and Spinnaker to roll out CI/CD-as-a-service on Kubernetes across the enterprises and continuous Verification through Autopilot.</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box past-web-watchnow">
+                            <a href="https://register.gotowebinar.com/recording/5660394013057445889" target="_blank" class="past-web-link">Watch here</a>                                               
+                        </div>
+                    </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 past-web-outer" >
+                        <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">
+                                <a href="https://register.gotowebinar.com/recording/8468539013863991042" target="_blank" class="jobTitle">    <img class="imgAlign img-responsive past-web-image img-webinar" src="../images/webinar/opsmx-netflix-logo.png" alt="terraform-with-spinnaker"/></a>
+                               </div>
+                               <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">                       
+                                   <span class="pull-left text-blue col-md-12 col-sm-12 col-xs-12 padding0">August 2019</span> 
+                                   <p class="f20 past-web-head">Terraform Integration for Spinnaker / Managed Delivery</p>   
+                                   <p class="f17">In this Webinar, Gopinath from OpsMx and Michael Galloway from Netflix talk about the new OSS integration from OpsMx that allows one to run the Terraform Infrastructure plan as part of the Spinnaker pipeline and Managed Delivery at Netflix which is a new approach to how software delivery is defined in Spinnaker. </p>
+                               </div>
+                               <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box past-web-watchnow">
+                                   <a href="https://register.gotowebinar.com/recording/8468539013863991042" target="_blank" class="past-web-link">Watch here</a>                                               
+                               </div>
+                        </div>
+            </div>
+         <br/><br/>
+        <div class="row">
+		<div class="col-md-4 col-sm-4 col-xs-12 past-web-outer" >
+                <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">
+                        <a href="https://register.gotowebinar.com/register/7420261328595374860" target="_blank" class="jobTitle">    <img class="imgAlign img-responsive past-web-image img-webinar" src="../images/webinar/risknew.png" alt="terraform-with-spinnaker"/></a>
+                       </div>
+                       <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">                       
+                           <span class="pull-left text-blue col-md-12 col-sm-12 col-xs-12 padding0">July 2019</span> 
+                           <p class="f20 past-web-head">Continuous Verification for Your CI/CD Platform (Spinnaker, Jenkins, etc.)</p>   
+                           <p class="f17">In this webinar, we will discuss an emerging topic called Continuous Verification and why it is crucial for your deployments and how to enable it for your CI/CD platform.</p>
+                       </div>
+                       <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box past-web-watchnow">
+                           <a href="https://register.gotowebinar.com/register/7420261328595374860" target="_blank" class="past-web-link">Watch here</a>                                               
+                       </div>
+         </div> 
+		 <div class="col-md-4 col-sm-4 col-xs-12 past-web-outer" >
+                        <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">
+                         <a href="https://register.gotowebinar.com/recording/3303590837380980482" target="_blank" class="jobTitle">    <img class="imgAlign img-responsive past-web-image img-webinar" src="../images/webinar/spinnaker-terraform.PNG" alt="terraform-with-spinnaker"/></a>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">                       
+                            <span class="pull-left text-blue col-md-12 col-sm-12 col-xs-12 padding0">June 2019</span> 
+                            <p class="f20 past-web-head">Integrate Terraform with OSS Spinnaker CD</p>   
+                            <p class="f17">In this webinar, we will cover the new integration that allows one to run the Terraform Infrastructure plan as part of the Spinnaker pipeline.  This integration is run with OSS Spinnaker.</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box past-web-watchnow">
+                            <a href="https://register.gotowebinar.com/recording/3303590837380980482" target="_blank" class="past-web-link">Watch here</a>                                               
+                        </div>
+        </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 past-web-outer" >
+                        <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">
+                        <a href=" https://www.youtube.com/watch?v=MBsnOJmb9t4" target="_blank" class="jobTitle">    <img class="imgAlign img-responsive past-web-image img-webinar" src="../images/webinar/spinnaker-openshift.png" alt="kubernetes-with-spinnaker"/></a>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">                       
+                            <span class="pull-left text-blue col-md-12 col-sm-12 col-xs-12 padding0">May 2019</span> 
+                            <p class="f20 past-web-head">Deploying Applications Faster to OpenShift with Spinnaker</p>   
+                            <p class="f17">In this webinar, learn how Spinnaker is the right choice for your Continuous Delivery of applications to OpenShift deployments. Also learn about the new OpsMx Spinnaker Operator to  reduce the time to onboard Spinnaker.</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box past-web-watchnow">
+                            <a href=" https://www.youtube.com/watch?v=MBsnOJmb9t4" target="_blank" class="past-web-link">Watch here</a>                                               
+                        </div>
+                 </div>
+        </div>
+        <br/><br/>   
+      <div class="row">
+	  <div class="col-md-4 col-sm-4 col-xs-12 past-web-outer" >
+                        <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">
+                         <a href="https://register.gotowebinar.com/register/2748313274372977677" target="_blank" class="jobTitle">   <img class="imgAlign img-responsive past-web-image img-webinar" src="../images/webinar/spinnaker-kubernetes.PNG" alt="kubernetes-with-spinnaker"/></a>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">                       
+                            <span class="pull-left text-blue col-md-12 col-sm-12 col-xs-12 padding0">April 2019</span> 
+                            <p class="f20 past-web-head">Deploying your Applications in a Repeatable Way on Kubernetes with Spinnaker</p>   
+                            <p class="f17">Learn how to deploy applications in a repeatable way on to Kubernetes clusters using K8s V2 provider from Spinnaker Continuous Delivery tool.</p>
+                        </div>
+                        <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box past-web-watchnow">
+                            <a href="https://register.gotowebinar.com/register/2748313274372977677" target="_blank" class="past-web-link">Watch here</a>                                               
+                        </div>
+                    </div>
+	  	<div class="col-md-4 col-sm-4 col-xs-12 past-web-outer" >
+                    <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">
+                     <a href="https://register.gotowebinar.com/recording/854904773029331971" target="_blank" class="jobTitle"><img class="imgAlign img-responsive past-web-image img-webinar" src="../images/webinar/amazon-eks.jpg" alt="aws-eks-with-spinnaker"/></a>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">                       
+                        <span class="pull-left text-blue col-md-12 col-sm-12 col-xs-12 padding0">March 2019</span> 
+                        <p class="f20 past-web-head">Deploying to AWS EKS with Spinnaker</p>   
+                        <p class="f17">Spinnaker is an open source CI/CD tool to automate and accelerate multi-cloud software delivery. Spinnaker supports deploying to AWS, GCP, Azure, and Kubernetes among other providers. In this tech talk, you will learn how to deploy to  AWS EKS using Spinnaker.</p>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box past-web-watchnow">
+                        <a href="https://register.gotowebinar.com/recording/854904773029331971" target="_blank" class="past-web-link">Watch here</a>                                               
+                    </div>
+                </div>
+            <div class="col-md-4 col-sm-4 col-xs-12 past-web-outer">
+                    <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">
+                      <a href="https://register.gotowebinar.com/register/26997803011327745" target="_blank" class="jobTitle">  <img class="imgAlign img-responsive past-web-image img-webinar" src="../images/webinar/spinnaker-webinar.jpg" alt="design-considerations"/></a>
+                    </div>  
+                    <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">
+                        <span class="pull-left text-blue col-md-12 col-sm-12 col-xs-12 padding0">November 2018</span>
+                        <p class="f20 past-web-head">Design Considerations for Enterprise-wide Roll Out of Spinnaker</p>
+                        <p class="f17">Enterprises looking to modernize their continuous delivery are considering Spinnaker. Beyond a single group using Spinnaker, you may want to roll out Spinnaker CD as a service for your entire organization.</p>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box past-web-watchnow">
+                        <a href="https://register.gotowebinar.com/register/26997803011327745" target="_blank" class="past-web-link">Watch here</a>                      
+                    </div>                
+                </div>
+           
+				
+           
+				   
+       </div> <br/><br/>   
+       <div class="row">
+	    <div class="col-md-4 col-sm-4 col-xs-12 past-web-outer">
+                    <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">
+                     <a href="https://register.gotowebinar.com/recording/2303557517333884935" target="_blank" class="jobTitle">   <img class="imgAlign img-responsive past-web-image img-webinar" src="../images/webinar/spinnaker-openstack.png" alt="cd-openstack"/></a>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">
+                        <span class="pull-left text-blue col-md-12 col-sm-12 col-xs-12 padding0">September 2018</span>
+                        <p class="f20 past-web-head">Continuous Deployment on OpenStack with Spinnaker</p> 
+                        <p class="f17">In this webinar, learn if Spinnaker is the right choice for your Continuous Delivery solution for OpenStack deployments, OpenStack users top requirements for next-generation Continuous Delivery solutions.</p>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box past-web-watchnow">
+                          <a href="https://register.gotowebinar.com/recording/2303557517333884935" target="_blank" class="past-web-link">Watch here
+                          </a>   
+                    </div> 
+                </div>
+	   <div class="col-md-4 col-sm-4 col-xs-12  past-web-outer" >
+                    <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">
+                     <a href="https://www.youtube.com/watch?v=yw95j86RG10&feature=youtu.be&list=PLaR6Rq6Z4IqdIM7LtosKqi3LlYXyxjwnj" target="_blank" class="jobTitle">   <img class="imgAlign img-responsive past-web-image img-webinar" src="../images/webinar/spinnaker-openshift.png" alt="cd-openshift"/></a>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">                        
+                        <span class="pull-left text-blue col-md-12 col-sm-12 col-xs-12 padding0">August 2018</span> 
+                        <p class="f20 past-web-head">Continuous Deployment on OpenShift with Spinnaker</p>   
+                        <p class="f17">In this webinar, learn if Spinnaker is the right choice for your Continuous Delivery solution for OpenShift deployments and OpenShift users top requirements for next-generation Continuous Delivery solutions,
+						Introduction to Spinnaker enterprise CD solution, Top features and benefits of Spinnaker, Spinnaker demo - Deploying to OpenShift and AWS.</p>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box past-web-watchnow">
+                        <a href="https://www.youtube.com/watch?v=yw95j86RG10&feature=youtu.be&list=PLaR6Rq6Z4IqdIM7LtosKqi3LlYXyxjwnj" target="_blank" class="past-web-link">Watch here</a>                                               
+                    </div>
+                </div>
+            <div class="col-md-4 col-sm-4 col-xs-12 past-web-outer">
+                    <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">
+                           <a href="https://register.gotowebinar.com/recording/601240837259451661" target="_blank" class="jobTitle">  <img class="imgAlign img-responsive past-web-image img-webinar" src="../images/webinar/spinnaker-openshift.png" alt="webinar"/></a>
+                        </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">                          
+                          <span class="pull-left text-blue col-md-12 col-sm-12 col-xs-12 padding0">June 2018</span>
+                          <p class="f20 past-web-head">Continuous Delivery: Is Spinnaker the Right Solution Tool for OpenShift Deployments</p>
+                      <p class="f17">In this webinar, learn if Spinnaker is the right choice for your Continuous Delivery solution for OpenShift deployments and OpenShift users top requirements for next-generation Continuous Delivery solutions,
+                    Introduction to Spinnaker enterprise CD solution, Top features and benefits of Spinnaker, Spinnaker demo - Deploying to OpenShift and AWS.</p>
+                </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box past-web-watchnow">
+                            <a href="https://register.gotowebinar.com/recording/601240837259451661" target="_blank" class="past-web-link">Watch here</span></a>                      
+                        </div>
+                    
+                </div>
+          
+        
+   </div><br/><br/>
+   <div class="row">
+     <div class="col-md-4 col-sm-4 col-xs-12 past-web-outer">
+					<div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">
+						 <a href="https://register.gotowebinar.com/recording/9222332288862277891" target="_blank"  class="jobTitle" ><img class="imgAlign img-responsive past-web-image img-webinar" src="../images/webinar/spinnaker-webinar.jpg" alt="spinnaker"/></a>
+					</div>
+					<div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box">                          
+						  <span class="pull-left text-blue col-md-12 col-sm-12 col-xs-12 padding0">April 2018</span>
+						  <p class="f20 past-web-head">Continuous Delivery: Is Spinnaker the Right Tool for you?</p> 
+					   <p class="f17">In this webinar, learn if Spinnaker is the right choice for your Continuous Delivery solution and top requirements for next-generation Continuous Delivery solutions,Choosing between Open Source CD and Closed Source CD solutions, Top features and benefits of Spinnaker, Spinnaker demo - Deploying to AWS and Kubernetes.</p>
+					</div>
+					<div class="col-md-12 col-sm-12 col-xs-12 padding0 past-web-box past-web-watchnow">
+						  <a href="https://register.gotowebinar.com/recording/9222332288862277891" target="_blank"  class="past-web-link">
+						  Watch here</a>   
+					</div>
+					
+				</div>
+   </div>
+    </div>
+    </section>  
+
+	 <!--section Pricing start-->
+  
+      <!-- <section id="section-pricing" class="section-padding">
+        <div class="container">	
+            <div class="row webinar-row" >
+                <div class="col-md-12">
+                    <div class="section-heading text-center wow" >
+                        <h1>Past Webinars</h1>                        
+                    </div>
+                </div>
+            </div>
+			<div class="row">			
+			  <div class="col-md-6 col-sm-6 col-xs-12 wow ">
+          <div class="price-box">
+              <div class="price-head">
+                <h3>Deploying to AWS EKS with Spinnaker</h3>
+                <a href="https://register.gotowebinar.com/recording/854904773029331971" target="_blank">
+  							    <div class="box">							
+                      <img class="imgAlign img-responsive" src="images/webinar/spinnaker-aws-eks.png" alt="aws-eks-with-spinnaker"/>	
+                      <div class="pull-left"><b>MAR 2019</b> 	</div>				
+  						        <p class="title">WATCH HERE</p>
+  						        <div class="overlay"></div>
+  						        <div class="button"> <i class="fa fa-play" ></i> </div>
+  					        </div>
+					      </a>
+					    </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12 wow ">
+            <div class="price-box">
+              <div class="price-head">
+                <h3>Design Considerations for Enterprise-wide Roll Out of Spinnaker</h3>
+                <a href="https://register.gotowebinar.com/register/26997803011327745" target="_blank">
+							    <div class="box">
+                    <img class="imgAlign img-responsive" src="images/webinar/design-considerations.png" alt="design-considerations"/>	
+                    <div class="pull-left"><b>NOV 2018</b></div>					
+						        <p class="title">WATCH HERE</p>
+						        <div class="overlay"></div>
+						        <div class="button"> <i class="fa fa-play" ></i> </div>
+					        </div>
+					      </a>
+					    </div>
+            </div>
+        </div>
+           
+            </div><br>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12 wow ">
+                    <div class="price-box">
+                        <div class="price-head">
+                            <h3>Continuous Deployment on OpenStack with Spinnaker</h3>
+                            <a href="https://register.gotowebinar.com/recording/2303557517333884935" target="_blank">
+							<div class="box">
+							
+                        <img class="imgAlign img-responsive" src="images/webinar/cd-openstack.png" alt="cd-openstack"/>	
+                        <div class="pull-left"><b>SEP 2018</b> 	</div>
+					
+						<p class="title">WATCH HERE</p>
+						<div class="overlay"></div>
+						<div class="button"> <i class="fa fa-play" ></i> </div>
+					</div>
+					</a>
+					</div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12 wow ">
+				<div class="price-box">
+                        <div class="price-head">
+                            <h3>Continuous Deployment on OpenShift with Spinnaker</h3>
+							<a href="https://www.youtube.com/watch?v=yw95j86RG10&feature=youtu.be&list=PLaR6Rq6Z4IqdIM7LtosKqi3LlYXyxjwnj" target="_blank">
+                           <div class="box">
+						<img class="imgAlign img-responsive" src="images/webinar/cd-openshift.png" alt="cd-openshift" />
+                        <div class="pull-left"><b>AUG 2018</b> 	</div>
+					
+						<p class="title">WATCH HERE</p>
+						<div class="overlay"></div>
+						<div class="button"> <i class="fa fa-play" ></i> </div>
+					</div>
+					</a>
+					
+                        </div>
+                    </div>
+                </div>  
+   			
+            </div><br>
+			 <div class="row">
+			  <div class="col-md-6 col-sm-6 col-xs-12 wow ">
+                    <div class="price-box">
+                        <div class="price-head">
+                                <h3>Continuous Delivery: Is Spinnaker the Right Solution Tool for OpenShift Deployments</h3>
+                                <a href="https://register.gotowebinar.com/recording/601240837259451661" target="_blank">
+                               <div class="box">
+                                    <img class="imgAlign img-responsive" src="images/webinar/cd_spinnaker_righttool.png" alt="webinar" />
+                                    <br>
+                                    <div class="pull-left"><b>JUN 2018</b> 	</div>
+                       
+                                    <p class="title">WATCH HERE</p>
+                            
+                                    <div class="overlay"></div>
+                                    <div class="button"> <i class="fa fa-play" ></i> </div>
+                               </div>
+                            </a>
+					
+                        </div>
+                    </div>
+                </div>	
+                <div class="col-md-6 col-sm-6 col-xs-12 wow ">
+					<div class="price-box">
+                        <div class="price-head">
+                                <h3>Continuous Delivery: Is Spinnaker the Right Tool for you?</h3>
+                                <a href="https://register.gotowebinar.com/recording/9222332288862277891" target="_blank">
+                                <div class="box">
+                            <img class="imgAlign img-responsive" src="images/webinar/spinnaker-righttool.png" alt="spinnaker" />
+                            <div class="pull-left"><b>APR 2018</b> 	</div>
+                      
+                            <p class="title"> WATCH HERE</p>
+                            <div class="overlay"></div>
+                            <div class="button" > <i class="fa fa-play" ></i> </div>
+                        </div>
+                        </a>
+						</div>
+	                </div>
+                </div>            
+            </div>
+			
+        </div>
+    </section>  -->
+<!-- section blog start -->
+	
+	
+	<!-- section blog start -->   
+  <!--  section service end
+ -->
+   
+	<!--  <footer class="py3 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; <a href="https://www.opsmx.com/">OpsMx</a> 2018</p>
+      </div>
+    </footer> -->
+
+ 						
+			<!-- section footer start -->
+            <section id="section-footer" class="section-padding">
+                    <div class="container">
+                      <div class="row">			
+                                      
+                            <div class="col-md-3">
+                               <div class="footer-item news">
+                                   <h4>Products</h4>
+                                    <hr class="hr-align">
+                                   <div class="row">
+                                       <div  class="col-md-12 col-sm-12">
+                                           <ul class="footer-link" >
+                                           
+                                           <li class="ordered-list"><a href="https://www.opsmx.com/opensource-spinnaker.html">Open Source Spinnaker </a></li>
+                                           <li class="ordered-list"><a href="https://www.opsmx.com/enterprise-spinnaker.html">Open Enterprise Spinnaker</a></li>
+                                           <li class="ordered-list"><a href="../spinnaker-as-a-service.html">Spinnaker-as-a-Service</a></li>
+										   <li class="ordered-list"><a href="https://www.opsmx.com/autopilot.html">Autopilot</a></li>
+                                                <li class="ordered-list"><a href="https://www.opsmx.com/#section-customers" >Customers</a></li>  
+                                            <li class="footer-display" class="ordered-list"><a href="https://www.opsmx.com/#section-solutions"></a></li>	
+                                            <li class="footer-display" class="ordered-list"><a href="https://www.opsmx.com/#section-solutions"></a></li>	
+                                            <li class="footer-display" class="ordered-list"><a href="https://www.opsmx.com/#section-solutions"></a></li>									
+                                         
+                                           </ul>
+                                       </div>
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                              <div class="footer-item news">
+                                   <h4>Company</h4>
+                                    <hr>
+                                   <div class="row">
+                                       <div  class="col-md-12 col-sm-12">
+                                           <ul class="footer-link" >
+                                             <li class="ordered-list"><a href="../company.html#section-company">Overview</a></li>
+                                               <li class="ordered-list"><a href="../team.html">Team</a></li>
+                                           
+                                               <li class="ordered-list"><a href="../company.html#section-investors">Investors</a></li>
+                                                <li class="ordered-list"><a href="../careers.html">Jobs</a></li>
+                                                <li class="ordered-list"><a href="vcontact.html" target="_blank">Contact Us</a></li>
+                                                 <li class="ordered-list"><a href="../locations.html">Locations</a></li>
+                                                 <li class="footer-display" class="ordered-list"><a href="https://www.opsmx.com/#section-solutions"></a></li>	
+                                           </ul>
+                                       </div>
+                                   </div>
+                                </div>
+                                        
+                            </div>
+                    
+                            <div class="col-md-2">
+                            <div class="footer-item news">
+                                   <h4>Community</h4>
+                                   <hr>
+                                   <div class="row">
+                                       <div  class="col-md-12">
+                                           <ul class="footer-link" >
+                                                  <li  class="ordered-list"><a href="https://join.spinnaker.io/" target="_blank">Slack</a></li>
+                                                  <li  class="ordered-list"><a href="https://www.spinnaker.io/ebook/" target="_blank">Ebook</a></li>
+                                                  <li class="ordered-list"><a href="https://stackoverflow.com/search?q=spinnaker" target="_blank">Stackoverflow </a></li>
+                                                  <li class="ordered-list"><a href="https://community.spinnaker.io/" target="_blank">Community Forum </a></li>
+                                                  <li class="ordered-list"><a href="https://github.com/spinnaker" target="_blank">GitHub  </a></li>
+                                                  
+                                           </ul>
+                                       </div>
+                                       
+                                       
+                                   </div>
+                                </div>
+                                </div>
+                                <div class="col-md-2">
+                                <div class="footer-item news">
+                                        <h4>Docs</h4>
+                                           <hr class="hr-align">
+                                        <div class="row">
+                                            <div  class="col-md-12 col-sm-12">
+                                                <ul class="footer-link" >
+                                                 <li class="ordered-list"><a href="https://docs.opsmx.com/" target="_blank">OpsMx Docs</a></li>
+                                                 <li class="ordered-list"><a href="https://www.spinnaker.io/concepts/" target="_blank">Spinnaker Docs</a></li>
+                                                 <li class="ordered-list"><a href="https://www.opsmx.com/#section-integrations">Integrations</a></li>
+                                                 
+                                                </ul>
+                                            </div>
+                                          
+                                        </div>
+                                     </div>
+                                     </div>
+                                
+                            
+                            <div class="col-md-3">
+                            <div class="footer-item news">
+                                    <h4>Resources</h4>
+                                     <hr>
+                                    <div class="row">
+                                        <div  class="col-md-12 col-sm-12">
+                                            <ul class="footer-link" >
+                                               <li class="ordered-list"><a href="https://blog.opsmx.com/">Blog</a></li> 
+                                                <li class="ordered-list"><a href="../videos.html" >Tutorials</a></li>
+                                                 <li class="ordered-list"><a href="../webinar.html" >On-Demand Webinars</a></li> 
+                                              
+                                            </ul>
+                                        </div>
+                                       </div>
+                                 </div>
+                                </div>
+                           
+             </div>
+             
+             
+                </section>
+    <!-- section footer end -->
+	
+    <!-- section footer end -->
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+	 <script src= "../js/angular.min.js"></script> 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+	<script src="ui-bootstrap.min.js"></script>
+	<script src="../js/indexApp.js"></script>
+	<script type="text/javascript" src="../js/contactController.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="../js/jquery.easing.min.js"></script>
+      <!-- Sticky JS -->
+    <script type="text/javascript" src="../js/jquery.sticky.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+    <!-- Waypoints -->
+    <script type="text/javascript" src="../js/waypoints.min.js"></script>
+    <!-- jQuery -->
+    <!-- Wow Animation -->
+    <script type="text/javascript" src="../js/wow.min.js"></script>
+	<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+ <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../js/theme.js"></script>
+	
+    <script>
+            $(".main-nav").sticky();
+
+    </script><!-- Waypoints -->
+    <script type="text/javascript" src="../js/waypoints.min.js"></script>
+    <!-- Wow Animation -->
+    <script type="text/javascript" src="../js/wow.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../js/theme.js"></script>
+
+
+<script src="https://cdn.smooch.io/smooch.min.js"></script>
+<!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="https://js.hs-scripts.com/2985751.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+</body>
+</html>
+  

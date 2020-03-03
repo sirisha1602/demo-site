@@ -1,0 +1,105 @@
+.btn-primary{
+    border:3px solid#005a9f;
+    background: #005a9f;
+}
+.btn-primary.feature{
+    background: #005a9f;
+    border: 2px solid#005a9f;
+}
+.btn-primary.white{
+    color: #2294ca;
+
+}
+
+.btn-primary.white:hover{
+    border-color: #005a9f;
+	background-color: #005a9f;
+}
+
+.get-start {
+	border:2px solid#aac9d8;
+    background: #ffffff;
+	color : #2294ca;
+}
+
+/*section heading*/
+
+.section-heading h2 span{
+    color: #2294ca;
+}
+
+
+/*navbar ==*/
+
+.navbar-custom .navbar-brand  span{
+    color: #2294ca;
+}
+
+.navbar-custom .nav li a:hover {
+    color: #2294ca;
+	
+}
+
+ .navbar-custom.top-nav-collapse .nav li.active a{
+        color: #2294ca!important;
+    }
+
+/*about===*/
+
+    a.more{
+    color: #2294ca;
+
+
+.icon-wrap i{
+    font-size: 30px;
+    color: #2294ca;
+}
+.icon-wrap:hover{
+    background: #2294ca;
+}
+
+/*why choos eus*/
+
+
+.why h2 span{
+    color: #2294ca;
+}
+
+.choose-wrap-ul li .choose-item i{
+    color: #2294ca;
+}
+
+/*feature===*/
+
+.feature-head h2 span{
+    color: #2294ca;
+}
+
+.feature-item:hover{
+     background: #2294ca;
+}
+
+/* client*/
+.client-box i{
+    color: #2294ca;
+   }
+
+   .client-info h3{
+    color: #2294ca;
+}
+
+
+/*pricing====*/
+
+.price-head h3{
+    color: #2294ca!important;
+}
+
+.blog-content a{
+    color: #2294ca;
+    
+}
+
+.footer-socail li a:hover{
+    background:#2294ca;
+}

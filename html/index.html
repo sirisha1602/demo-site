@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="OpsMx provides Open Enterprise Spinnaker for Continuous Delivery of Software.OpsMx Spinnaker is AI Driven multi-cloud CI/CD for DevOps with 24x7 app on-boarding support. ">
+    <meta name="keywords" content="Spinnaker, Continuous Delivery, OpsMx, Continous Verification, OpenShift, Kubernetes">
+	<meta name="author" content="Open Enterprise Spinnaker. | OpsMx Simplifies Your Journey">
+	<link rel="icon" href="images/icon/opsmx.png" />
+
+    <title>Enterprise Ready Spinnaker |AI Driven Multi Cloud CI/CD for DevOps-OpsMx </title>
+
+        <!-- MAIN CSS FILES====hello===============================
+        ======================================================= -->
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Animation -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Custom CSS -->
+    <link href="css/theme.css" rel="stylesheet">
+    <link href="css/color.css" rel="stylesheet">
+
+    <!-- Responsive styles-->
+    <link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css">
+    <!-- Custom Fonts -->
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Elegant icon font -->
+    <link rel="stylesheet" href="css/simple-line-icons.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>-->
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <link rel="canonical" href="https://www.opsmx.com/">
+<!-- Hotjar Tracking Code for https:://opsmx.com/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1288532,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<!-- Global site tag (gtag.js) - Google Ads: 793097158 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-793097158"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-793097158');
+</script>
+
+<!-- Event snippet for OpsMx Leads conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-793097158/3rEtCKj1zbABEMbnlvoC',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PSQ8BPG');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navigation" ng-app="postApp" ng-controller="postController">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PSQ8BPG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- Tracking code for website -->
+	<script type="text/javascript" src="https://www.ches5sort.com/js/168186.js" ></script>
+	<noscript><img alt="" src="https://www.ches5sort.com/168186.png" style="display:none;" /></noscript>
+<!-- End of Tracking code for website -->
+<!-- Navigation -->
+	<div class="banner-content">
+      <a href="https://go.opsmx.com/spinnaker-summit-san-diego" target="_blank"class="Banner__button">
+                <span class="banner-title">Spinnaker summit - Use OPSMX20 and get a discount of 20% on booking tickets</span> &nbsp;&nbsp;
+                <span target="_blank" class="discount-code"style="border-radius: 4px !important;">Book Now</span>
+            </a>
+  </div>
+    <nav class="navbar navbar-custom navbar-main main-nav nav-style" id="section-header">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <a href="https://www.opsmx.com/"> <img src="images/logo.png" alt="logo" class="img-responsive"></a>
+                </a>
+            </div>
+
+           <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse navbar-right navbar-main-collapse navigation">
+                <ul class="nav navbar-nav">	
+					<li class="dropdown list-item-align">
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
+                        <ul class="dropdown-menu dropdown-align dropdown-menu1 dropdown-line">
+                            <li style="list-style:none;" class="dropdown-submenu"><a class="dropdown-item" tabindex="-1">Spinnaker</a>
+                                <ul class="dropdown-menu dropdown-menu2 dropdown-submenu-line">
+									<li class="list-item-dropdown"><a  href="opensource-spinnaker.html">Open Source Spinnaker</a></li>
+									<li  class="list-item-dropdown"><a  href="enterprise-spinnaker.html">Open Enterprise Spinnaker</a></li>
+									<li  class="list-item-dropdown"><a  href="spinnaker-as-a-service.html">Spinnaker-as-a-Service</a></li>
+									<li  class="list-item-dropdown"><a href="at-a-glance.html">Compare Editions </a></li>
+                                </ul>
+                              </li>
+							  <li  class="list-item-dropdown"><a href="autopilot.html">Autopilot </a></li>
+								<li style="list-style:none;" class="dropdown-submenu"><a class="dropdown-item" tabindex="-1">Services</a>
+									<ul class="dropdown-menu dropdown-menu2 dropdown-submenu-line">
+										<li class="list-item-dropdown"><a href="services.html">Services</a></li>						
+										<li  class="list-item-dropdown"><a href="training.html">Training and Workshops</a></li>
+									</ul>
+                              </li>
+						</ul>
+                    </li>
+					 <li class="list-item-align"><a href="pricing.html">Pricing</a></li>
+					 <!-- <li style="list-style:none;"><a href="at-a-glance.html">PRICING</a></li> -->
+					<li class="list-item-align"><a href="https://docs.opsmx.com/">Docs</a> </li> 
+					<li class="list-item-align"><a class="page-scroll" href="https://blog.opsmx.com/" >Blog</a></li>
+					<li class="dropdown list-item-align">
+                        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Webinars</a>
+                        <ul class="dropdown-menu dropdown-align dropdown-line">
+                                
+                                <li class="list-item-dropdown"><a href="webinar.html">On-Demand Webinars</a></li>	
+							 <li class="list-item-dropdown"><a href="videos.html">Tutorials</a></li>
+							
+						</ul>
+                     </li>
+                     <li class="list-item-align"><a class="page-scroll" href="company.html" >Company</a></li>
+                     <li class="list-item-align"><a  href="contact.html" class="btn btn-sm btn-primary free">Contact Us</a></li>
+					<li class="list-item-align"><a class="page-scroll" href="https://opsmx.freshdesk.com/support/login" >Login</a></li>
+					             
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+        <!-- navbar end -->
+
+<!-- Home Section with blue background-->
+	<section id="home-section" class="home-section">
+        <div class="parallax-overlay black-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="slider-caption">
+                        <h1 class="slider-title wow">Open Enterprise Spinnaker</h1>
+                        <p class="wow">Enterprise Ready Continuous Delivery & Continuous Verification</p>
+						
+						<!--[if lte IE 8]>
+							<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+							<![endif]-->
+					
+							
+							
+                         <a href="spinnaker-demo.html" class="btn btn-sm btn-white-bg white btn-round" style="text-transform:none;font-size: 16px;padding: 10px;display: inline;">Schedule A Demo</a>
+						<!--<a href="spinnaker-demo.html" class="btn btn-sm btn-primary white" style="text-transform:none;">Schedule A Demo</a>
+						 <!--<a data-fancybox data-options='{"caption" : "FREE TRIAL", "src" : "https://share.hsforms.com/1qYZkIElRQv2aWJaLWkAqnA1rztj", "type" : "iframe"}' href="javascript:;"><div class="input-group">
+							<input type="text" class="form-control form-cta" placeholder="Enter your email">
+							<span class="input-group-btn" style="width:0;">
+								<button class="btn btn-primary" type="button">FREE TRIAL</button>
+							</span>
+						</div></a>-->
+                         <!--  <a  href="contact.html" class="btn btn-primary" ng-click="getFreeTrial()">FREE TRIAL</a>
+                        <!-- <a href="#section-contact" class="btn btn-primary white wow fadeInUp" >Get Started</a>  -->
+                    </div>
+                
+                </div>
+				<!-- <div class="col-md-6">
+				   <div class="slider-caption">
+				<div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+           </div>
+          </div>
+				</div> -->
+            </div>
+        </div>
+         <div class="col-md-4 col-sm-6 col-xs-11 webinar-learnmore" style="bottom: 30px;">
+            <div class="webinar-learnmore-head" ></div>
+            <div>
+                    <ul>               
+					  	
+						<!--- webinar -->
+						
+						<li class="webinar-list" >
+                            <div class="webi-li-first" style="padding: 7px;">                   
+                                <ul class="text-center">
+                                    <li class="webi-li-date-mm">November</li>
+                                    <li class="webi-li-date-dd" style="font-size: 15px">13th</li>
+                                   
+                                     <li class="webi-li-date-time">10 AM PST</li>  
+                                </ul>            				
+                                <div class="webi-li-details">Continuous Verification for Your CI/CD Platform (Spinnaker, Jenkins, etc.) </div>
+                            </div> 
+                            <div class="webi-li-second">
+                                 <div class="webi-hover-text">Learn why Continuous Verification is crucial for your deployments and how to enable it for your CI/CD platform </div>
+                                 <a href="https://go.opsmx.com/webinar-continuous-verification-for-any-cicd-november" class="webi-second-view">VIEW</a>
+                            </div> 
+                        </li>
+						<li class="webinar-list" >
+                            <div class="webi-li-first" style="padding: 7px;">                   
+                                <ul class="text-center">
+                                    <li class="webi-li-date-mm">November</li>
+                                    <li class="webi-li-date-dd" style="font-size: 15px">15th - 17th</li>
+                                   
+                                     <li class="webi-li-date-time" style="visibility:hidden;">2019</li>  
+                                </ul>            				
+                                <div class="webi-li-details"> Spinnaker Summit 2019 at San Diego</div>
+                            </div> 
+                            <div class="webi-li-second">
+                                 <div class="webi-hover-text"> Meet Us at Spinnaker Summit at San Diego </div>
+                                 <a href="https://go.opsmx.com/spinnaker-summit-san-diego" class="webi-second-view">VIEW</a>
+                            </div> 
+                        </li>
+                         <li class="webinar-list" >
+                            <div class="webi-li-first" style="padding: 7px;">                   
+                                <ul class="text-center">
+                                    <li class="webi-li-date-mm">November</li>
+                                    <li class="webi-li-date-dd" style="font-size: 15px">18th - 21st</li>
+                                   
+                                     <li class="webi-li-date-time" style="visibility:hidden;">2019</li>  
+                                </ul>            				
+                                <div class="webi-li-details">KubeCon | CloudNativeCon at San Diego Convention Center</div>
+                            </div> 
+                            <div class="webi-li-second">
+                                 <div class="webi-hover-text"> Visit Booth SE#67 to learn about Continuous Delivery through Spinnaker</div>
+                                 <a href="https://go.opsmx.com/kubecon-cloudnativecon-page" class="webi-second-view">VIEW</a>
+                            </div> 
+                        </li>
+							
+                      
+                    </ul>
+            </div>
+        </div>
+    </section> 
+<!--/ End Home Section -->
+
+	
+	
+
+   <!--section service start-->
+
+    <section id="section-solutions" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading text-center wow ">
+                        <h1>Simplify Continuous Delivery</h1>
+                        
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            
+             <!-- <div class="">
+             <div class="col-md-8 col-md-offset-2" style="margin-bottom:50px">
+             <div class="embed-responsive embed-responsive-16by9">
+             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+            </div>
+           </div>
+             </div> -->
+           
+            <div class="row">
+               
+                <div class="col-md-6 col-sm-12 col-xs-12 wow">
+                        <a href="enterprise-spinnaker.html">
+                            <div class="service-item">
+                            <p class="text-center">Deliver Software Faster with</p>
+                             <h3 class="text-center align-pd-image">Open Enterprise Spinnaker</h3>
+                            <img src="images/rsz_spinnaker-logo-32c3d1cddf-seeklogocom.png" alt="spinnaker logo" class="img-responsive center-block">
+                                <h3 class="text-center">Continuous Delivery Platform</h3>
+                                    
+                                <!-- <p class="text-center">Multi-Cloud Continuous Delivery with Control and Compliance</p>					 -->
+                                <p class="text-center">   <a href="spinnakervideo.html" target="_blank" class="past-web-link" style="text-transform: unset;" > <span class="glyphicon glyphicon-expand"></span> Watch Introduction to Spinnaker</a>  </p>                                         
+                                <!---<a style="text-transform: none;" href="https://opsmx.sharedemos.com/" target="_blank" >Take an Interactive Product Walk-through</a>-->
+                                
+                                <!---<p style="padding-bottom:5px;">OpsMx provides automated release analysis and diagnostics for any Spinnaker Deployment stages including Staging, Canary, Blue/Green, Rolling update stages.</p>-->
+                                                      
+                            </div>
+                        </a>
+                        </div>
+					<div class="col-md-6 col-sm-12 col-xs-12 wow">
+					<a href="autopilot.html">
+                    <div class="service-item p30">
+					<p class="text-center">Reduce Failures with</p>
+					<h3 class="text-center align-pd-image">Autopilot </h3>
+                        <img src="images/rsz_image2.png" alt="continuous verification" class="img-responsive center-block">
+                        <h3 class="text-center">Continuous Verification Platform</h3>
+					
+						<!-- <p class="text-center">
+                          Quality, compliance and control to your continuous delivery
+                        </p> 	 -->
+						
+                        <div class="text-center">
+						<p>Works with all CI/CD platforms</p>
+                            <ul class="automation-ul">
+                                <li><img src="images/client/spinnaker-logo.png" alt="spinnaker" data-toggle="tooltip" title="Spinnaker"><!-- <span>spinnaker</span> --></li>
+                                <li><img src="images/client/jenkin-logo.jpeg"  alt="jenkins" data-toggle="tooltip" title="Jenkins"><!-- <span>jenkins</span> --></li>
+                                <li><img src="images/client/kubernetes-logo.png" alt="kubernetes" data-toggle="tooltip" title="Kubernetes"><!-- <span>kubernetes</span> --></li>
+                                <li><img src="images/client/openshift-logo.png" alt="openshift" data-toggle="tooltip" title="OpenShift"><!-- <span>openshift</span> --></li>
+                                <li><img src="images/client/cloudfoundary-logo.png" alt="cloudfoundary" data-toggle="tooltip" title="Cloud Foundry"><!-- <span>cloudfoundary</span> --></li>
+                                <li><img src="images/client/bamboo-logo.png" alt="bamboo" data-toggle="tooltip" title="Atlassian Bamboo"><!-- <span>atlassian bamboo</span> --></li> 
+                            </ul>
+                        </div>						
+						<!---<p style="padding-bottom:5px;">OpsMx provides automated release analysis and diagnostics for any Spinnaker Deployment stages including Staging, Canary, Blue/Green, Rolling update stages.</p>-->
+						<div>
+						<p></p>
+						</div>
+                       
+                    </div>
+					</a>
+                </div>
+                    </div>
+					<br>
+					<!--<div >
+			
+				<span class="text-center">
+											<!--[if lte IE 8]>
+							<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+							<![endif]-->
+							<!-- <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+							<script>
+							  hbspt.forms.create({
+								portalId: "2985751",
+								formId: "75f888a1-ebc6-4b57-8d70-e7ae409907f5"
+							});
+							</script> -->
+						<!--</span>
+						
+						</div>-->
+				
+				<!--	<div >
+					<div class="panel panel-body panel-cta">
+				<span>
+				<h4 class="pull-left">Start your free demo <i class="fa fa-arrow-right fa-trial"></i></h4>
+				</span>
+				<span class="pull-right">
+				 <!-- <a data-fancybox data-options='{"caption" : "DEMO", "src" : "https://share.hsforms.com/1dfiIoevGS1eNcOeuQJkH9Q1rztj", "type" : "iframe"}' href="javascript:;">
+				 <span class="input-group">
+							<input type="text" class="form-control form-cta" placeholder="Enter your email">
+							<span class="input-group-btn" style="width:0;">
+								<button class="btn btn-primary" type="button">DEMO</button>
+							</span>
+						</span></a>
+						</span>
+						</div>
+						</div>-->
+					<section>
+						<div class="row" >
+						  	<div class="row">
+                				<div id="section-customers" class="col-md-12">
+			                    	<div  class="section-heading text-center wow ">
+			                        	<h1>Customer Journey</h1>
+			                        	<p></p>
+			                    	</div>
+                				</div>
+            				</div>
+						<div class="col-sm-6">
+						<div class="service-item-videos">
+                          <!-- 4:3 -->
+                           <img class="img-mrg pb5" src="images/icon/cisko2.png" alt="cisco logo"/> 
+						   <!-- <h3 class="text-center videos-title">Cisco </h3> -->
+						   <div class="youtube-player" data-id="LKrSWryMNKg?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com"></div>
+						  <!-- <div class="embed-responsive embed-responsive-16by9 section-customers-align">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LKrSWryMNKg?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com"><div><small><a href="https://youtubeembedcode.com/en">youtubeembedcode en</a></small></div><div><small><a href="https://add-link-exchange.com">w://add-link-exchange.com</a></small></div></iframe>					  
+						  </div> -->
+						</div>
+						</div>
+						<div class="col-sm-6">
+						<div class="service-item-videos">
+						  <!-- 16:9 -->
+              <h3 class="text-center pb15">Lessons from the large and small enterprises on the rollout of Spinnaker</h3>						  
+						  <div class="youtube-player" data-id="9-pJ1ErI9PU?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com"></div>
+						  <!-- <div class="embed-responsive embed-responsive-16by9 video-align">
+							  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9-pJ1ErI9PU?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com"></iframe>
+						  </div> -->
+						</div>
+						</div>
+					</div>
+					</section>
+					<br>
+					<div>
+				
+				<span class="text-center">
+							<!--[if lte IE 8]>
+         <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+          <![endif]-->
+      <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+      <script>
+  hbspt.forms.create({
+	portalId: "2985751",
+	formId: "989a60db-aa3b-4cd8-ad7c-c39b61ec7a22"
+});
+</script>
+						</span>
+						
+						</div>
+				
+					<!--<div >
+					<div class="panel panel-body panel-cta">
+				<span>
+				<h4 class="pull-left">Sign Up to Download Case Study<i class="fa fa-arrow-right fa-trial"></i></h4>
+				</span>
+				<span class="pull-right">
+				 <!-- <a data-fancybox data-options='{"caption" : "Download Case Study", "src" : "https://share.hsforms.com/1mJpg26o7TNitfMObYex6Ig1rztj", "type" : "iframe"}' href="javascript:;">
+				 <span class="input-group">
+							<input type="text" class="form-control form-cta" placeholder="Enter your email">
+							<span class="input-group-btn" style="width:0;">
+								<button class="btn btn-primary" type="button">Download Case Study</button>
+							</span>
+						</span></a>
+						</span>
+						</div>
+						</div>-->
+						<br>
+					<section class="section-align" >
+					<div class="row" >
+                <div class="col-md-4 col-sm-6 col-xs-12 wow">
+                    <div class="price-box">
+                        <div class="price-head">
+                            <h3 class="price-head-main">Struggling to achieve continuous delivery?</h3>
+                            <p>Start your continuous delivery journey with Open Enterprise Spinnaker (OES)
+
+</p></div>
+                        
+                        <div class=" text-center">                      
+                            <a class="btn btn-xs btn-primary learnmore"  
+                                href="enterprise-spinnaker.html">Learn More</a> 
+                        </div>                        
+                </div>
+</div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12 wow ">
+                    <div class="price-box">
+                        <div class="price-head" >
+                            <h3 class="price-head-main">Need Spinnaker Support And Managed Services?</h3>
+                            <p >Leverage OpsMx  Support and Managed Services for Spinnaker</p>
+                        </div>
+                        <div class="text-center">
+                        <a class="btn btn-xs btn-primary learnmore"  
+                        href="services.html">Learn More</a>
+                         </div>
+                    </div>
+                </div>
+				
+				
+                <div class="col-md-4 col-sm-6 col-xs-12 wow">
+                    <div class="price-box">
+                        <div class="price-head">
+                            <h3 class="price-head-main">Is verification Time-consuming & Error-prone</h3>
+                            <p>Automate your Release Verification with Autopilot</p>
+                        </div>
+                        <div class="text-center">
+                          <a class="btn btn-xs btn-primary learnmore"
+                            href="autopilot.html">Learn More</a> 
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+				
+				<br>
+				
+				
+					<!--<div >
+					<div class="panel panel-body panel-cta">
+				<span>
+				<h4 class="pull-left">Request a Free Office Hour with one of our Spinnaker expert</h4>
+				</span>
+				<span class="pull-right">
+				 <!-- <a data-fancybox data-options='{"caption" : "Free Office Hour", "src" : "https://share.hsforms.com/1eM8DQusCTZqmlx9M0UUn_w1rztj", "type" : "iframe"}' href="javascript:;">
+				 <span class="input-group">
+							<input type="text" class="form-control form-cta" placeholder="Enter your email">
+							<span class="input-group-btn" style="width:0;">
+								<button class="btn btn-primary" type="button">Free Office Hour</button>
+							</span>
+						</span></a>
+						</span>
+						</div>
+						</div>-->
+
+            
+				</section>
+				
+				
+				
+				
+            </div>
+        </div>
+    </section>
+ 
+    </div>
+
+
+            </div>
+        </div>
+    </section>
+	
+	 <!-- <!-- section client  -->
+    <section id="section-integrations" >
+        <div class="container">
+		    <div class="section-heading text-center wow">
+                <h1>Integrations</h1>
+                     <!--   <h5>best services ever</h5> -->
+            </div>
+            <div class="row">
+			    <div class="col-lg-1 col-sm-1 col-xs-offset-0">
+			    </div>
+			    <div class="col-lg-10 col-sm-10 col-xs-10">
+			        <h4></h4>
+			    </div>
+		    </div>
+            
+		<div class="row">
+		    <div class="col-lg-1 col-sm-1 col-xs-offset-0">
+		    </div>
+		    <div class="col-lg-2 col-sm-2 col-xs-12">
+		        <a  class="thumbnail">
+		             <img src="images/client/Integrations-Kubernetes-340x216.png" alt="kubernetes" class="img-responsive">
+		        </a>
+		    </div>
+		    <div class="col-lg-2 col-sm-2 col-xs-12">
+		        <a class="thumbnail redhat-thumbnail" >
+		             <img src="images/client/OpenShift_byRedHat-Logo_webBanner2.png" alt="redhat" class="img-responsive">
+		        </a>
+		    </div>
+		    <div class="col-lg-2 col-sm-2 col-xs-12">
+		        <a class="thumbnail">
+		             <img src="images/client/Integrations-OpenStack-340x216.png" alt="openstack" class="img-responsive">
+		        </a>
+		    </div>			
+		    <div class="col-lg-2 col-sm-2 col-xs-12">
+		        <a class="thumbnail">
+		             <img src="images/client/Integrations-AWS-340x216.png" alt="aws" class="img-responsive">
+		        </a>
+		    </div>
+		    <div class="col-lg-2 col-sm-2 col-xs-12">
+		        <a class="thumbnail">
+		             <img src="images/client/Integrations-Jenkins-340x216.png" alt="jenkins" class="img-responsive">
+		        </a>
+		    </div>		    
+			<div class="col-lg-1 col-sm-1 col-xs-offset-0">
+			</div>
+	</div>
+
+	<div class="row integration-head" >
+	 	<div class="col-lg-1 col-sm-1 col-xs-offset-0">
+		</div>
+		<div class="col-lg-2 col-sm-2 col-xs-12">
+	        <a class="thumbnail">
+	             <img src="images/client/aws_cloudwatch.png" alt="aws-cloudwatch" class="img-responsive">
+	        </a>
+	    </div>
+		<div class="col-lg-2 col-sm-2 col-xs-12">
+	        <a class="thumbnail">
+	             <img src="images/client/rsz_cloudfoundrycorp_verticalsvg.png" alt="cloud-foundry" class="img-responsive">
+	        </a>
+	    </div>
+	    <div class="col-lg-2 col-sm-2 col-xs-12">
+	        <a class="thumbnail">
+	             <img src="images/client/Integrations-Docker-340x2161.png" alt="docker" class="img-responsive">
+	        </a>
+	    </div>
+		 <div class="col-lg-2 col-sm-2 col-xs-12">
+	        <a class="thumbnail">
+	             <img src="images/client/datadog.PNG" alt="datadog" class="img-responsive">
+	        </a>
+	    </div>
+		<div class="col-lg-2 col-sm-2 col-xs-12">
+	        <a class="thumbnail">
+	             <img src="images/client/elastic-logo.png" alt="elasticsearch" class="img-responsive">
+	        </a>
+    	</div> 
+		<div class="col-lg-1 col-sm-1 col-xs-offset-0">
+		</div>
+	</div>
+	<div class="row">
+	 	<div class="col-lg-1 col-sm-1 col-xs-offset-0">
+		</div>
+		<div class="col-lg-2 col-sm-2 col-xs-12">
+	        <a class="thumbnail">
+	             <img src="images/client/Integrations-GoogleCloudPlatform-340x216.png" alt="google-cloud-platform" class="img-responsive">
+	        </a>
+	    </div>
+	    <div class="col-lg-2 col-sm-2 col-xs-12">
+	        <a class="thumbnail">
+	             <img src="images/client/graphite.png" alt="graphite" class="img-responsive">
+	        </a>
+	    </div>
+	    
+	    
+		<div class="col-lg-2 col-sm-2 col-xs-12">
+	        <a class="thumbnail">
+	             <img src="images/client/Integrations-Azure-v2.png" alt="azure" class="img-responsive">
+	        </a>
+	    </div>
+		<div class="col-lg-2 col-sm-2 col-xs-12">
+	        <a class="thumbnail">
+	             <img src="images/client/Integrations-Mesos-340x216.png" alt="mesos" class="img-responsive">
+	        </a>
+	    </div>
+		<div class="col-lg-2 col-sm-2 col-xs-12">
+	        <a class="thumbnail">
+	             <img src="images/client/Integrations-NewRelic-340x216.png" alt="newrelic" class="img-responsive">
+	        </a>
+	    </div>
+	 	<div class="col-lg-1 col-sm-1 col-xs-offset-0">
+		</div>
+    </div>
+    <div class="row">
+  		<div class="col-lg-1 col-sm-1 col-xs-offset-0">
+		</div>
+		<div class="col-lg-2 col-sm-2 col-xs-12">
+	        <a class="thumbnail">
+	             <img src="images/client/terraform.png" alt="terraform" class="img-responsive">
+	        </a>
+	    </div>
+		<div class="col-lg-2 col-sm-2 col-xs-12">
+	        <a class="thumbnail">
+	             <img src="images/client/Integrations-dynatrace.jpeg" alt="dynatrace" class="img-responsive">
+	        </a>
+	    </div>
+		<div class="col-lg-2 col-sm-2 col-xs-12">
+	        <a class="thumbnail">
+	             <img src="images/client/Integrations-Splunk-340x216.png" alt="splunk" class="img-responsive">
+	        </a>
+	    </div>
+			<div class="col-lg-2 col-sm-2 col-xs-12">
+	        <a class="thumbnail">
+	             <img src="images/client/stackdriver.PNG" alt="stackdriver" class="img-responsive">
+	        </a>
+	    </div>
+		<div class="col-lg-2 col-sm-2 col-xs-12">
+	        <a class="thumbnail">
+	             <img src="images/client/Integrations-Sumologic-340x216.png" alt="sumologic" class="img-responsive">
+	        </a>
+	    </div>
+		<div class="col-lg-1 col-sm-1 col-xs-offset-0">
+		</div>
+	</div>
+        </div> 
+    </section> <br><br><br>
+
+    <!-- section footer start -->
+    <section id="section-footer" class="section-padding">
+            <div class="container">
+              <div class="row">			
+                              
+                    <div class="col-md-3">
+                       <div class="footer-item news">
+                           <h4>Products</h4>
+                            <hr class="hr-align">
+                           <div class="row">
+                               <div  class="col-md-12 col-sm-12">
+                                   <ul class="footer-link" >
+                                   
+                                   <li class="ordered-list"><a href="https://www.opsmx.com/opensource-spinnaker.html">Open Source Spinnaker </a></li>
+                                   <li class="ordered-list"><a href="https://www.opsmx.com/enterprise-spinnaker.html">Open Enterprise Spinnaker</a></li>
+								   <li class="ordered-list"><a href="spinnaker-as-a-service.html">Spinnaker-as-a-Service</a></li>
+                                   <li class="ordered-list"><a href="https://www.opsmx.com/autopilot.html">Autopilot</a></li>
+                                        <li class="ordered-list"><a href="https://www.opsmx.com/#section-customers" >Customers</a></li>  
+                                    <li class="footer-display" class="ordered-list"><a href="https://www.opsmx.com/#section-solutions"></a></li>	
+                                    <li class="footer-display" class="ordered-list"><a href="https://www.opsmx.com/#section-solutions"></a></li>	
+                                    <li class="footer-display" class="ordered-list"><a href="https://www.opsmx.com/#section-solutions"></a></li>									
+                                 
+                                   </ul>
+                               </div>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="footer-item news">
+                           <h4>Company</h4>
+                            <hr>
+                           <div class="row">
+                               <div  class="col-md-12 col-sm-12">
+                                   <ul class="footer-link" >
+                                     <li class="ordered-list"><a href="company.html#section-company">Overview</a></li>
+                                       <li class="ordered-list"><a href="team.html">Team</a></li>
+                                   
+                                       <li class="ordered-list"><a href="company.html#section-investors">Investors</a></li>
+                                        <li class="ordered-list"><a href="careers.html">Jobs</a></li>
+                                        <li class="ordered-list"><a href="contact.html" target="_blank">Contact Us</a></li>
+                                         <li class="ordered-list"><a href="locations.html">Locations</a></li>
+                                         <li class="footer-display" class="ordered-list"><a href="https://www.opsmx.com/#section-solutions"></a></li>	
+                                   </ul>
+                               </div>
+                           </div>
+                        </div>
+                                
+                    </div>
+            
+                    <div class="col-md-2">
+                    <div class="footer-item news">
+                           <h4>Community</h4>
+                           <hr>
+                           <div class="row">
+                               <div  class="col-md-12">
+                                   <ul class="footer-link" >
+                                          <li  class="ordered-list"><a href="https://join.spinnaker.io/" target="_blank">Slack</a></li>
+                                          <li  class="ordered-list"><a href="https://www.spinnaker.io/ebook/" target="_blank">Ebook</a></li>
+                                          <li class="ordered-list"><a href="https://stackoverflow.com/search?q=spinnaker" target="_blank">Stackoverflow </a></li>
+                                          <li class="ordered-list"><a href="https://community.spinnaker.io/" target="_blank">Community Forum </a></li>
+                                          <li class="ordered-list"><a href="https://github.com/spinnaker" target="_blank">GitHub  </a></li>
+                                          
+                                   </ul>
+                               </div>
+                               
+                               
+                           </div>
+                        </div>
+                        </div>
+                        <div class="col-md-2">
+                        <div class="footer-item news">
+                                <h4>Docs</h4>
+                                   <hr class="hr-align">
+                                <div class="row">
+                                    <div  class="col-md-12 col-sm-12">
+                                        <ul class="footer-link" >
+                                         <li class="ordered-list"><a href="https://docs.opsmx.com/" target="_blank">OpsMx Docs</a></li>
+                                         <li class="ordered-list"><a href="https://www.spinnaker.io/concepts/" target="_blank">Spinnaker Docs</a></li>
+                                         <li class="ordered-list"><a href="#section-integrations">Integrations</a></li>
+                                         
+                                        </ul>
+                                    </div>
+                                  
+                                </div>
+                             </div>
+                             </div>
+                        
+                    
+                    <div class="col-md-3">
+                    <div class="footer-item news">
+                            <h4>Resources</h4>
+                             <hr>
+                            <div class="row">
+                                <div  class="col-md-12 col-sm-12">
+                                    <ul class="footer-link" >
+                                       <li class="ordered-list"><a href="https://blog.opsmx.com/">Blog</a></li> 
+                                        <li class="ordered-list"><a href="videos.html" >Tutorials</a></li>
+                                         <li class="ordered-list"><a href="webinar.html" >On-Demand Webinars</a></li> 
+                                      
+                                    </ul>
+                                </div>
+                               </div>
+                         </div>
+                        </div>
+						 <div class="col-md-7 col-md-offset-3">
+								<div class="footer-item news">
+									   <div class="row"> 
+										   <div class="col-md-12 col-sm-12">
+											   <a class="twitter-timeline" data-width="700" data-height="550" data-dnt="true" data-theme="light" href="https://twitter.com/ops_mx">Tweets by ops_mx</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+										  </div>
+									   </div>
+								</div>
+							</div> 
+     </div>
+	 
+	 <div class="row">
+	
+	 </div>
+     
+     
+        </section>
+    <!-- section footer end -->
+ 
+            </div> <!--/ row -->
+        </div> <!--/ container -->
+    </footer>
+	
+    <!-- section footer end -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+	 <script src= "js/angular.min.js"></script> 
+	
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="ui-bootstrap.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+		<script src="js/indexApp.js"></script>
+		<script type="text/javascript" src="js/contactController.js"></script>
+		<script type="text/javascript" src="js/demoController.js"></script>
+			<script type="text/javascript" src="js/caseStudyController.js"></script>
+				<script type="text/javascript" src="js/newsLetterController.js"></script>
+					<script type="text/javascript" src="js/freeOfficeController.js"></script>
+      <!-- Sticky JS -->
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+    <!-- Waypoints -->
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
+    <!-- jQuery -->
+    <!-- Wow Animation -->
+    <script type="text/javascript" src="js/wow.min.js"></script>
+	
+ <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/theme.js"></script>
+		
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+	
+
+<script>
+     new WOW().init();
+</script>
+    <script>
+            $(".main-nav").sticky();
+
+    </script><!-- Waypoints -->
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
+    <!-- Wow Animation -->
+    <script type="text/javascript" src="js/wow.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/theme.js"></script>
+
+<script src="https://cdn.smooch.io/smooch.min.js"></script>
+<!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="https://js.hs-scripts.com/2985751.js"></script>
+<!-- End of HubSpot Embed Code -->
+<script>
+//Smooch.init({ appToken: '20e7jkz3k0z93x4xigjja8isi' });
+</script>
+<script type="application/ld+json">
+{  
+  "@type":"Software Product",
+  "url": "https://www.opsmx.com/",
+  "name": "OpsMx - Open Enterprise Spinnaker",
+  "logo":"https://www.opsmx.com/images/logo.png"
+}
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded",
+        function() {
+            var div, n,v = document.getElementsByClassName("youtube-player");
+            console.log("div");console.log(div);
+            console.log("n");console.log(n);
+            console.log("v");console.log(v);
+            for (n = 0; n < v.length; n++) {
+                div = document.createElement("div");
+                div.setAttribute("data-id", v[n].dataset.id);
+                div.innerHTML = labnolThumb(v[n].dataset.id);
+                div.onclick = labnolIframe;
+                v[n].appendChild(div);
+            }
+    });
+    function labnolThumb(id) {
+        var thumb = '<img src="images/spinnaker-summit.png">',
+            play = '<div class="play"></div>';
+        return thumb.replace("ID", id) + play;
+    }
+    function labnolIframe() {
+        var iframe = document.createElement("iframe");
+        var embed = "https://www.youtube.com/embed/ID?autoplay=1";
+        iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+        iframe.setAttribute("frameborder", "0");
+        iframe.setAttribute("allowfullscreen", "1");
+        this.parentNode.replaceChild(iframe, this);
+    }
+</script>
+</body>
+</html>
+  

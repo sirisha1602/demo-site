@@ -1,0 +1,263 @@
+site_name: OpsMx
+
+#pages:
+ #   - Spinnaker: index.md 
+  #  - OpsMx Autopilot: opsmxAutopilot.md  
+
+theme: readthedocs
+
+# Copyright (c) 2016-2018 Martin Donath <martin.donath@squidfunk.com>
+
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to
+# deal in the Software without restriction, including without limitation the
+# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+# sell copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+# IN THE SOFTWARE.
+
+# Project information
+site_name: AI Driven Continuous Delivery
+site_description: OpsMx Documentation
+site_author: OpsMx
+site_url: http://testdoc.opsmx.com/
+
+# Repository
+##repo_url: 'https://github.com/rcnotebook/testblog'
+
+# Copyright
+copyright: 'Copyright &copy; 2018 - 2019 OpsMx'
+
+# Configuration
+theme:
+  name: null
+  custom_dir: material
+  logo: ./assets/images/logo.png
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  feature:
+    tabs: false
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/images/opsmx-icon.png
+  
+# Customization
+# Options
+extra:
+#  logo: 'images/logo.svg'
+  #palette:
+ #   primary: 'red'
+  #  accent: 'orange'
+ # font:
+ #   text: 'Roboto'
+ #   code: 'Roboto Mono'
+  social:
+##    link: 'https://github.com/rcnotebook'
+#    - type: 'twitter'
+#      link: 'https://twitter.com/john-doe'
+#    - type: 'linkedin'
+#      link: 'https://de.linkedin.com/in/john-doe'
+  disqus: 'docs-opsmx-com'
+# Google Analytics
+google_analytics:
+  - 'UA-132975557-1'
+  - 'auto' 
+  
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+pages:
+
+  - Spinnaker : 
+      - OES Overview : index.md
+      - Setup Spinnaker:
+        - Overview: setup-spinnaker/overview.md
+        - OES Installation: setup-spinnaker/oesinstallation.md
+        - Halyard Installation: 
+            - Normal Installation: setup-spinnaker/halyard-normal-installation.md
+            - Docker Installation: setup-spinnaker/halyard-docker-installation.md
+        - Choose Cloud Providers:
+            - Overview of Cloud Providers: setup-spinnaker/cloud-providers/overview.md
+            - Amazon Webservices: 
+               - Overview: setup-spinnaker/cloud-providers/amazon/overview.md
+               - EC2: setup-spinnaker/cloud-providers/amazon/EC2.md
+               - ECS: setup-spinnaker/cloud-providers/amazon/EC.md
+            - Azure: setup-spinnaker/cloud-providers/azure.md
+            - Cloud Foundry: setup-spinnaker/cloud-providers/cloud-foundry.md
+            - DC/OS: setup-spinnaker/cloud-providers/DC.md
+            - Docker Registry: setup-spinnaker/cloud-providers/docker-registry.md
+            - Google App Engine: setup-spinnaker/cloud-providers/gae.md
+            - Google Compute Engine: setup-spinnaker/cloud-providers/gce.md
+            - Kubernetes (Legacy): setup-spinnaker/cloud-providers/kubernetes(L).md
+            - Kubernetes (Manifest Based): setup-spinnaker/cloud-providers/kubernetes(M).md
+            - Amazon EKS: setup-spinnaker/cloud-providers/amazon(eks).md
+            - Google Kubernetes Engine: setup-spinnaker/cloud-providers/gke.md
+            - OpenStack: setup-spinnaker/cloud-providers/openstack.md
+            - Oracle: setup-spinnaker/cloud-providers/oracle.md
+        - Choose an Environment: 
+            - Overview: setup-spinnaker/environments/overview.md
+            - Distributed Installation on Kubernetes: setup-spinnaker/environments/distributed-installation-on-kubernetes.md
+            - Local Debian Installation – Standalone Server: setup-spinnaker/environments/local-debian-installation.md
+            - Local Git Installation – Developer User: setup-spinnaker/environments/local-git-installation.md
+        - Choose a Storage Service: 
+            - Overview: setup-spinnaker/storage/overview.md
+            - Azure Storage: setup-spinnaker/storage/azure.md
+            - Google Cloud Storage: setup-spinnaker/storage/google-cloud.md
+            - Minio: setup-spinnaker/storage/minio.md
+         ##   - Redis – Not Recommended: setup-spinnaker/storage/redis.md
+            - S3: setup-spinnaker/storage/s3.md
+            - Oracle Object Storage: setup-spinnaker/storage/oracle.md
+        - Deploy and Connect Spinnaker to Halyard: setup-spinnaker/spinnaker-to-halyard.md
+        - Download GCP Credentials: setup-spinnaker/download-gcp.md
+        - Steps to Backup: setup-spinnaker/backup-config.md
+        #- Config FAQ’s: setup-spinnaker/configs.md
+     
+      
+  - Additional Feature Configuration: 
+        - Overview: additional-feature-configuration/overview.md
+        - Configure Artifact Support: 
+            - Overview: additional-feature-configuration/artifact/overview.md
+            - Google Cloud Storage: additional-feature-configuration/artifact/gcs.md
+            - GitHub: additional-feature-configuration/artifact/github.md
+            - GitHub Artifacts Spinnaker: additional-feature-configuration/artifact/githubArtifacts.md
+            - GitLab: additional-feature-configuration/artifact/gitlab.md
+            - HTTP: additional-feature-configuration/artifact/http.md
+        - Configure the Image Bakery: 
+            - Overview: additional-feature-configuration/configure/overview.md
+            - Google Compute Engine: additional-feature-configuration/configure/gce.md
+        - Secure Spinnaker: 
+            - Secure Spinnaker Installation: additional-feature-configuration/secure-spinnaker/secure-spinnaker-installation.md
+            - Authentication: 
+                - Overview: additional-feature-configuration/secure-spinnaker/authentication/authentication.md
+                - SSL: additional-feature-configuration/secure-spinnaker/authentication/ssl.md
+                - Methods: 
+                     - OAuth 2.0: additional-feature-configuration/secure-spinnaker/authentication/oauth.md
+                     - SAML: additional-feature-configuration/secure-spinnaker/authentication/saml.md
+                     - LDAP: additional-feature-configuration/secure-spinnaker/authentication/ldap.md
+                     - X.509: additional-feature-configuration/secure-spinnaker/authentication/x-509.md
+            - Authorization: 
+                - Overview: additional-feature-configuration/secure-spinnaker/authorization/authorization.md
+                - User Role Providers: 
+                    - Google Groups: additional-feature-configuration/secure-spinnaker/authorization/google-groups.md
+                    - GitHub Teams: additional-feature-configuration/secure-spinnaker/authorization/github-teams.md
+                    - LDAP: additional-feature-configuration/secure-spinnaker/authorization/ldap.md
+                    - SAML: additional-feature-configuration/secure-spinnaker/authorization/saml.md
+                - Service Accounts: additional-feature-configuration/secure-spinnaker/authorization/serviceAccounts.md
+        - Setup Triggers: 
+              - Google Cloud Pub/Sub: additional-feature-configuration/secure-spinnaker/setup-triggers/google-cloud-pub.md
+              - GitHub WebHook: additional-feature-configuration/secure-spinnaker/setup-triggers/github-webhook.md
+        - Add CI System: 
+            - Overview and Compatible List of CI Systems by Spinnaker: additional-feature-configuration/overview-cisystems.md
+            - Steps to Configure CI Systems: 
+                - Google Cloud Build: additional-feature-configuration/configure-ci-systems/google-cloud-build.md
+                - Jenkins: additional-feature-configuration/configure-ci-systems/jenkins.md
+                - Travis CI: additional-feature-configuration/configure-ci-systems/travis-ci.md
+                - Wercker: additional-feature-configuration/configure-ci-systems/webrcker.md
+        - Enable Monitoring: 
+            - Overview: additional-feature-configuration/enable-monitoring.md
+            - Steps to Setup Supported Monitoring Tools: 
+                - Datadog: additional-feature-configuration/monitoring-tools/datadog.md
+                - Promethues and Grafana: additional-feature-configuration/monitoring-tools/prometheus-grafana.md
+                - Promethues and Kubernetes: additional-feature-configuration/monitoring-tools/prometheus-kubernetes.md
+                - Stackdriver: additional-feature-configuration/monitoring-tools/stackdriver.md
+        - Steps to Setup Canary Support: additional-feature-configuration/canary-support.md
+        - Additional Features Setup:
+            - Productionize Spinnaker: 
+                - Overview: productionize-spinnaker/overview.md
+                - Configure Caching: 
+                    - Steps to Configure Spinnaker’s Usage for Redis: productionize-spinnaker/configure-spinnaker-redis.md
+                    - Steps to Externalize Redis: productionize-spinnaker/externalize-redis.md
+                - Configure Scaling: 
+                    - Steps to Scale Clouddriver: productionize-spinnaker/clouddriver.md
+                    - Steps to Scale Orca: productionize-spinnaker/orca.md
+                - Configure Persistence: 
+                    - Steps to Setup Set up Orca to use SQL: productionize-spinnaker/usesql.md
+            - Configure Notifications: 
+                - Email: additional-feature-configuration/notifications/email.md
+                - HipChat: additional-feature-configuration/notifications/hipchat.md
+                - Slack: additional-feature-configuration/notifications/slack.md
+                - SMS via Twilio: additional-feature-configuration/notifications/sms.md
+            - Configure User Data(Metadata): additional-feature-configuration/notifications/user-data.md
+            - Configure Script Stage: additional-feature-configuration/notifications/script-stage.md
+       # - How to Setup Minio Storage Service for Spinnaker on Openshift: additional-feature-configuration/spinnakeronOpenshift.md
+        - How to Setup Replication for Minio Storage Service on Openshift: additional-feature-configuration/minioonopenshift.md
+      #  - How to do Automated Canary Analysis for Kubernetes and Prometheus: additional-feature-configuration/automatedCanaryAnalysisForKubernetesAndPrometheus.md
+  - Autopilot:
+    - Introduction: autopilot-introduction.md
+    - Getting Started: gettingStarted.md
+    - Download and run AutoPilot CV: downloadAndRunACV.md
+    - Configuring Application Dashboard: configuringApplications.md
+    - Customize templates: customizeTemplateForService.md
+    - Enable integration into CI/CD pipelines: 
+        - Integrate with CI/CD: integrations/cicdPipelines.md
+        - Integrate with Jenkins: integrations/jenkins.md
+        - Integrate with Spinnaker (ACA and Canary): integrations/spinnaker(canary-and-aca).md
+
+  #  - Metrics and log analysis:
+ #       - Download and configure CV: metricAndLogs/downloadConfigureCV.md
+ #       - Configure Templates: metricAndLogs/configureTemplates.md
+ #       - Integrations:
+ #           - Integrate with CI/CD: integrations/cicdPipelines.md
+ #           - Integrate with Jenkins: integrations/jenkins.md
+ #           - Integrate with Spinnaker (ACA and Canary): integrations/spinnaker(canary-and-aca).md
+    - Report Details: reports.md
+    - Supervised Learning: supervised-learning.md
+  - Codelabs:
+ #   - Terraform Integration with Spinnaker: codelabs/terraform-with-spinnaker.md
+    - Red Hat Certified Spinnaker Operator: codelabs/Red Hat Certified Operator for Spinnaker.md
+    - How to Integrate Vault with Spinnaker: codelabs/How to Integrate Vault with Spinnaker.md
+    - How to Create Terraform Custom Job in Spinnaker: codelabs/terraform-customjob-spinnaker.md
+#  - Spinnaker:
+ #   - How to Setup Minio Storage Service for Spinnaker on Openshift: spinnakeronOpenshift.md
+ #   - How to Setup Replication for Minio Storage Service on Openshift: minioonopenshift.md
+ #   - Enabling Spinnaker Monitoring using Prometheus and Grafana: enablingSpinnakerUsingPrometheusAndGrafana.md
+ #   - How to do Automated Canary Analysis for Kubernetes and Prometheus: automatedCanaryAnalysisForKubernetesAndPrometheus.md
+  
